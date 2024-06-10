@@ -2,6 +2,5 @@
 erhf
 сохраняетмя все вопремя /n
 <h1>ewod<h1>
-odibucudjcdbcjlbwcjbsjbjdbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjbjb
-<h3>разбираюся как писаь здесь <h3>
+<h3>разбираюся как писаь здесь </h3>
 
