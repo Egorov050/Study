@@ -21,6 +21,8 @@ df['Возрастная группа'] = pd.cut(df['Возраст'], bins=30, 
 ```
 
 <h2>Пример</h2>
+
+
 ```python
 data = {
     'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eva'],
