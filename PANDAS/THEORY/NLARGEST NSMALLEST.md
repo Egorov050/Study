@@ -11,7 +11,8 @@ print(top_3_largest)
 
 # Using nsmallest
 top_3_smallest = df['B'].nsmallest(3)
-print("\nTop 3 smallest values in column 'B':")
+print("Top 3 smallest values in column 'B':")
 print(top_3_smallest)
 ```
 
+<span style="color:rgb(253, 165, 15)">nsmallest()</span>: Эта функция извлекает самые маленькие N значения из DataFrame или Series. соответственно <span style="color:rgb(253, 165, 15)">nlargest</span> , n самых больших значений
