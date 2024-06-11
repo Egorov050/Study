@@ -21,7 +21,7 @@ df['Возрастная группа'] = pd.cut(df['Возраст'], bins=30, 
 ```
 
 <h2>Пример</h2>
-```python 
+```python
 data = {
     'Name': ['Alice', 'Bob', 'Charlie', 'David', 'Eva'],
     'Age': [23, 45, 18, 34, 56]
@@ -50,5 +50,6 @@ print(df)
 2  Charlie   18      0-18
 3    David   34     19-35
 4      Eva   56       51+
+
 ```
 
