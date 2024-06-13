@@ -83,3 +83,5 @@ one_hot_encoded = one_hot_encoded.astype(int)
 4                      0                      1                      0  
 5                      0                      0                      1
 ```
+
+<h2>Масштабирование признаков</h2> 
