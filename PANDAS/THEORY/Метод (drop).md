@@ -1,3 +1,4 @@
+
 Для того, что бы удалить колонку(и) , мы можем : 
 
 ```python 
@@ -16,3 +17,6 @@ df = df.drop(columns=['column_name'])
 df = df.drop(df[df['Tm'] == 'TOT'].index)
 ```
 
+
+
+Для того, чтобы удалить 
