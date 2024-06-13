@@ -32,8 +32,11 @@ from sklearn.model_selection import train_test_split
 20% - <span style="color:rgb(253, 165, 15)">testing set</span>
 
 Делаем это вот таким способом : 
+
 ```python 
 X_train, X_test, y_train, y_test = train_test_split(X,y,test_size=0.2 ,random_state=13)
 ```
 
-
+ Функция `train_test_split` случайным образом разбивает данные на обучающую и тестовую выборки в заданных пропорциях. Разбиение происходит таким образом, чтобы обеспечить равномерное распределение классов (если данных с балансом классов) в обеих выборках. 
+<h2>Stratify</h2>
+Параметр <span style="color:rgb(253, 165, 15)">stratify</span> в функции `train_test_split` из библиотеки `scikit-learn` используется для обеспечения стратификации при разделении данных на обучающую и тестовую выборки.
