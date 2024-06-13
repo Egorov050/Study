@@ -105,6 +105,14 @@ one_hot_encoded = one_hot_encoded.astype(int)
 3) Gradient Boosting: Так же как и деревья решений, не чувствителен к масштабу признаков.
 
 <h2>Как мы это делаем?</h2>
+```python 
+from sklearn.preprocessing import StandardScaler 
+# Инициализация 
+StandardScaler scaler = StandardScaler() 
+# Применение StandardScaler к данным 
+scaled_data = scaler.fit_transform(data) 
+```
+
 
 *Примечание : Масштабирование числовых признаков после One-Hot Encoding не влияет на закодированные категориальные признаки. При масштабировании данные, полученные после one-hot encoding (столбцы с 0 и 1), останутся в неизменном виде, поскольку масштабирование не изменяет значения 0 и 1. Оно лишь приводит числовые признаки к заданному диапазону.*
 
