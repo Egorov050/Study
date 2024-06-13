@@ -106,14 +106,13 @@ one_hot_encoded = one_hot_encoded.astype(int)
 
 <h2>Как мы это делаем?</h2>
 ```python 
-from sklearn.preprocessing import StandardScaler 
 # Инициализация 
-scaler = StandardScaler()
-
-scaler.fit(X_train)
-
-X_train_normed = scaler.transform(X_train)
-
+StandardScaler scaler = StandardScaler() 
+# Обучение scaler на тренировочных данных 
+scaler.fit(X_train) 
+# Преобразование тренировочных данных 
+X_train_normed = scaler.transform(X_train) 
+# Преобразование тестовых данных 
 X_test_normed = scaler.transform(X_test)
 ```
 
