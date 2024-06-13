@@ -12,6 +12,56 @@
 
 
 <h2>Обработка категориальных данных</h2>
+Для этого мы используем one hot encoding. Делается это вот таким способом : 
+```python 
+import pandas as pd
+
+data = {
+    'Марка машины': ['Toyota', 'Honda', 'BMW', 'Toyota', 'BMW', 'Honda'],
+    'Год производства': [2010, 2012, 2010, 2018, 2012, 2018]
+}
+df = pd.DataFrame(data)
 
 
+one_hot_encoded = pd.get_dummies(df, columns=['Марка машины', 'Год производства'])
 
+one_hot_encoded = one_hot_encoded.astype(int)
+
+print(one_hot_encoded)
+```
+
+По факту, мы используем функцию `pd.get_dummies` где уточняем наш датасет и колонки, которые нужно заинкодить. :
+
+```python
+one_hot_encoded = pd.get_dummies(df, columns=['Марка машины', 'Год производства'])
+```
+
+Однако, после такого у нас будет вот такая таблица : 
+```python 
+Марка машины_BMW  Марка машины_Honda  Марка машины_Toyota  \
+0             False               False                 True   
+1             False                True                False   
+2              True               False                False   
+3             False               False                 True   
+4              True               False                False   
+5             False                True                False   
+
+   Год производства_2010  Год производства_2012  Год производства_2018  
+0                   True                  False                  False  
+1                  False                   True                  False  
+2                   True                  False                  False  
+3                  False                  False                   True  
+4                  False                   True                  False  
+5                  False                  False                   True  
+```
+
+Так как нам нужны 0 и 1 , то мы прописываем обычную функцию, которая преобразует данные в цифры : 
+
+```python 
+one_hot_encoded = one_hot_encoded.astype(int)
+```
+
+Тогда мы получаем : 
+
+```
+```
