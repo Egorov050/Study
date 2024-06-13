@@ -105,6 +105,7 @@ one_hot_encoded = one_hot_encoded.astype(int)
 
 
 <h2>Как мы это делаем?</h2>
+
 ```python 
 # Инициализация 
 StandardScaler scaler = StandardScaler() 
