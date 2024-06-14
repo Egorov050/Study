@@ -15,3 +15,6 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.tree import DecisionTreeRegressor
 ```
 
+Далее мы подготавливаем наши данные см ( [[Подготовка данных]] )
+
+
