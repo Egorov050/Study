@@ -10,4 +10,4 @@ sns.countplot(x = 'quality', data = df)
 
 Здесь, x = наш `target_variable`. 
 
-Получим вот такой 
+Е
