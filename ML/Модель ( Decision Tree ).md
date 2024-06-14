@@ -39,3 +39,5 @@ dt.fit(X_train, y_train)
 y_pred = dt.predict(X_test)
 ```
 
+
+<h2>Регрессия</h2>
