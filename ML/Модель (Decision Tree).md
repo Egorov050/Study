@@ -27,4 +27,10 @@ from sklearn.tree import DecisionTreeRegressor
 dt = DecisionTreeRegressor()
 ```
 
-Затем
+Затем тренируем нашу модель на `X_train, y_train` : 
+
+```python 
+dt.fit(X_train, y_train)
+```
+
+Модель натренирована. 
