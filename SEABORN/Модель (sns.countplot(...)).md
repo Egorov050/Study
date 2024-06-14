@@ -8,6 +8,6 @@
 sns.countplot(x = 'quality', data = df)
 ```
 
-Здесь, x = наш `target_variable`. 
+Здесь, x = наш `target_variables`. 
 
-Е
+Если на графике столбы равны => наши `target_variabples` распределены равномерно и масштабировать не надо. Есл
