@@ -55,7 +55,17 @@ from sklearn.tree import DecisionTreeClassifier
 Сначала инициализируем модель : 
 
 ```python 
-
+dt = DecisionTreeClassifier()
 ```
 
+Затем тренируем нашу модель на `X_train, y_train` : 
+
+```python 
+dt.fit(X_train, y_train)
+```
+
+Модель натренирована. Теперь мы можем прогнать `X_test` через уже натренированую модель и получить `y_pred`, которую затем мы можем сравнить с `y_test` : 
+
+```python 
+y_pred = dt.predict(X_test)
 
