@@ -39,11 +39,11 @@ y_pred = kn.predict(X_test)
 
 
 <h2>Классификация</h2>
-```python 
-
+```python
 import pandas as pd
 import seaborn as sns
 import matplotlib as plt
 from sklearn.model_selection import train_test_split
-from sklearn.neighbors import KNeighborsRegressor
+from sklearn.neighbors import NeighborsClassifier
 ```
+
