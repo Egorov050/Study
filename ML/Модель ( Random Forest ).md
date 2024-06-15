@@ -25,5 +25,5 @@ from sklearn.neighbors import RandomForestRegressor
 Как только наши данные подготовлены, можем приступить к обучению модели : 
 
 ```python 
-
+              р
 ```
