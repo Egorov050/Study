@@ -5,7 +5,15 @@ K-Nearest Neighbors (KNN) — это один из простых и понят�
 
 При регрессии значение для нового объекта вычисляется как среднее значение его k ближайших соседей.
 
+![[Pasted image 20240615131901.png]]
+
+Итак, импортируем нужные библиотеки 
+
 ```python 
+import pandas as pd
+import seaborn as sns
+import matplotlib as plt
+from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsRegressor
 ```
 
