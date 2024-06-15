@@ -24,5 +24,6 @@ from sklearn.neighbors import KNeighborsRegressor
 Как только наши данные подготовлены, можем приступить к обучению модели : 
 
 ```python 
-
+kn = KNeighborsRegressor()
+knf
 ```
