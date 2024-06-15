@@ -23,3 +23,7 @@ from sklearn.neighbors import RandomForestRegressor
 см ( [[Сплит данных перед моделью]] )
 
 Как только наши данные подготовлены, можем приступить к обучению модели : 
+
+```python 
+
+```
