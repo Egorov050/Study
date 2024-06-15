@@ -25,5 +25,7 @@ from sklearn.neighbors import KNeighborsRegressor
 
 ```python 
 kn = KNeighborsRegressor()
-knf
+kn.fit(X_train, y_train)
 ```
+
+Модель наша обучилась, далее мы засовываем `X_test` в нашу модель , мы получим 
