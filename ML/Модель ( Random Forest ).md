@@ -15,7 +15,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib as plt
 from sklearn.model_selection import train_test_split
-from sklearn.neighbors import 
+from sklearn.neighbors import RandomForestRegressor
 ```
 
 Далее мы подготавливаем наши данные см ( [[Подготовка данных]] )
