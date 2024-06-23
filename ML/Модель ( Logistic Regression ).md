@@ -14,7 +14,7 @@
 from sklearn.linear_model import LogisticRegression
 ```
 
-Мы как обычно выделяем ключевую метрику, делим наш датасет наСначала мы треним наш датасет. Затем мы его обязательно скейлим : 
+Мы как обычно выделяем ключевую метрику, делим наш датасет на тренировочнный и тестовый. Затем мы его обязательно скейлим : 
 
 ```python 
 from sklearn.preprocessing import StandardScaler
@@ -25,6 +25,17 @@ X_train = scaler.transform(X_train)
 X_test = scaler.transform(X_test)
 ```
 
-Отлично, теперь мы 
+Отлично, теперь мы можем приступить к тренировке нашей модели : 
+
+```python 
+
+model_LR = LogisticRegression()
+
+model_LR.fit(X_train, y_train)
+
+y_pred_test_LR = model_LR.predict(X_test)
+
+y_pred_train_LR = model_LR.predict(X_train)
+```
 
 
