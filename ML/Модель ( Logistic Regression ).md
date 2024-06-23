@@ -14,11 +14,17 @@
 from sklearn.linear_model import LogisticRegression
 ```
 
-Сначала мы треним наш датасет. Затем мы его обязательно скейлим : 
+Мы как обычно выделяем ключевую метрику, делим наш датасет наСначала мы треним наш датасет. Затем мы его обязательно скейлим : 
 
 ```python 
+from sklearn.preprocessing import StandardScaler
+scaler = StandardScaler()
+scaler.fit(X_train)
 
+X_train = scaler.transform(X_train)
+X_test = scaler.transform(X_test)
 ```
 
+Отлично, теперь мы 
 
 
