@@ -36,4 +36,10 @@ RFR = RandomForestRegressor(min_samples_split=2, max_features=6, max_depth=21)
 
 `max_depth=21` : Максимальная глубина каждого дерева в лесу
 
-Далее, мы тренеруем
+Далее, мы тренируем нашу модель : 
+
+```python 
+RFR.fit(X_train, y_train)
+y_RFR_train_predict = RFR.predict(X_train)
+y_RFR_test_predict = RFR.predict(X_test)
+```
