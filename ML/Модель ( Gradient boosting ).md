@@ -26,6 +26,6 @@ LGB_model.fit(X_train, y_train)
 Далее мы по классике предиктим наши модели : 
 
 ```python 
-
+LGB_model.predict(X_test)
 ```
 
