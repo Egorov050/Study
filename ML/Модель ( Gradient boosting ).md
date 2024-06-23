@@ -21,4 +21,4 @@ LGB_model = lgb.LGBMClassifier(verbose=0)
 LGB_model.fit(X_train, y_train)
 ```
 
-Здесь мы используем `verbose=0` для 
+Здесь мы используем `verbose=0` для того
