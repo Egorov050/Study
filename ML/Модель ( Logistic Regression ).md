@@ -30,12 +30,11 @@ X_test = scaler.transform(X_test)
 ```python 
 
 model_LR = LogisticRegression()
-
 model_LR.fit(X_train, y_train)
 
 y_pred_test_LR = model_LR.predict(X_test)
-
 y_pred_train_LR = model_LR.predict(X_train)
 ```
+
 
 
