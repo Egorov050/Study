@@ -28,4 +28,7 @@ from sklearn.ensemble import RandomForestRegressor
 RFR = RandomForestRegressor(min_samples_split=2, max_features=6, max_depth=21)
 ```
 
-Здесь мы должны указать 
+Здесь мы должны указать :
+
+`min_samples_split=2`: Минимальное количество образцов, необходимых для разделения внутреннего узла.
+
