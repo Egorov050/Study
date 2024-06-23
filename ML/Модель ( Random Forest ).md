@@ -15,7 +15,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib as plt
 from sklearn.model_selection import train_test_split
-from sklearn.neighbors import RandomForestRegressor
+from sklearn.ensemble import RandomForestRegressor
 ```
 
 Далее мы подготавливаем наши данные см ( [[Подготовка данных]] )
@@ -25,5 +25,7 @@ from sklearn.neighbors import RandomForestRegressor
 Как только наши данные подготовлены, можем приступить к обучению модели : 
 
 ```python 
-
+RFR = RandomForestRegressor(min_samples_split=2, max_features=6, max_depth=21)
 ```
+
+Здесь мы должны указать 
