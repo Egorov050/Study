@@ -79,3 +79,5 @@ y_pred = dt.predict(X_test)
 DTR = DecisionTreeRegressor(max_depth=5)
 ```
 
+Это нужно, чтобы не было оверфиттинга
+
