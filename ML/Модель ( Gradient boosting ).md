@@ -14,4 +14,11 @@ Gradient Boosting — это мощный метод машинного обуч
 import lightgbm as lgb
 ```
 
-Перейдем непосредственно к те
+Перейдем непосредственно к тренировке модели : 
+
+```python 
+LGB_model = lgb.LGBMClassifier(verbose=0)
+LGB_model.fit(X_train, y_train)
+```
+
+Здесь мы используем `verbose=0` для 
