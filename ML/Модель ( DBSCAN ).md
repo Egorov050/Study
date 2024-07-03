@@ -3,4 +3,5 @@ Density-based spatial clustering of applications with noise - плотностн
 
 Освежить принцип работы алгоритма : https://www.youtube.com/watch?v=svAtnZ5XjSI
 
-Перед тем, как начать трен
+Перед тем, как начать тренировку модели. нужно : 
+1)  Подготовить да
