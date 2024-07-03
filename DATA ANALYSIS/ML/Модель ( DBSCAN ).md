@@ -44,6 +44,13 @@ data_clean['Cluster'] = dbscan.fit_predict(X_scaled)
 Далее, мы можем визуализировать как сработал наш алгоритм. Мы можем использовать как 2D графики, так и 3D. Как построить 3D смотри тут [[3D Визуализация]]. Если вкратце, то вот пример : 
 
 ```python
+
+from mpl_toolkits.mplot3d import Axes3D
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+
+
 fig = plt.figure(figsize=(10,10))
 ax = fig.add_subplot(111, projection='3d')
 
@@ -53,7 +60,10 @@ ax.set_ylabel('Monetary')
 ax.set_zlabel('Frequency')
 
 plt.show()
+
 ```
+
+
 
 
 <h3>Как выбрать параметр eps ? </h3>
