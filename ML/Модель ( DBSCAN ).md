@@ -8,7 +8,7 @@ Density-based spatial clustering of applications with noise - плотностн
 2) Подготовить данные [[Подготовка данных]], в том числе и масштабировать их
 3) Обработать категориальные данные 
 
-После того, как мы сделали весь процесc : 
+После того, как мы сделали весь процесc... : 
 
 ```python
 from sklearn.neighbors import LocalOutlierFactor
@@ -16,11 +16,17 @@ from sklearn.cluster import DBSCAN
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import LocalOutlierFactor
 
-
-
+#считаем, что данные были подготовлины и нужно только отскейлить и удалить выбросы
 
 lof = LocalOutlierFactor(n_neighbors=20, contamination=0.1)
 outliers = lof.fit_predict(data)
 outliers_indices = data[outliers == -1].index
 data_clean = data.drop(outliers_indices)
+
+
+scaler = StandardScaler()
+X_scaled = scaler.fit_transform(data_clean[['Recency', 'Frequency', 'Monetary']])
 ```
+
+.... мы можем перейти к тренировке нашей модели : 
+
