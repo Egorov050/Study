@@ -7,3 +7,10 @@ Density-based spatial clustering of applications with noise - плотностн
 1)  Подготовить данные [[Подготовка данных]], в том числе и масштабировать их
 2) Обработать категориальные данные 
 3) Удалить выбросы [[Удаление выбросов ( LocalOutlierFactor )]]
+
+После того, как мы сделали весь процесc : 
+
+```python
+from sklearn.neighbors import LocalOutlierFactor
+
+```
