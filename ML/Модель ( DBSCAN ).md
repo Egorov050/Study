@@ -12,7 +12,6 @@ Density-based spatial clustering of applications with noise - плотностн
 
 ```python
 from sklearn.neighbors import LocalOutlierFactor
-from sklearn.cluster import DBSCAN
 from sklearn.preprocessing import StandardScaler
 from sklearn.neighbors import LocalOutlierFactor
 
@@ -30,3 +29,8 @@ X_scaled = scaler.fit_transform(data_clean[['Recency', 'Frequency', 'Monetary']]
 
 .... мы можем перейти к тренировке нашей модели : 
 
+```python 
+from sklearn.cluster import DBSCAN
+
+dbscan = DBSCAN(eps=0.5, min_samples=5)
+```
