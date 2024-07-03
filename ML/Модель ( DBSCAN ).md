@@ -1,4 +1,5 @@
 <h6>DBSCAN</h6>
 Density-based spatial clustering of applications with noise - плотностной алгоритм пространственной кластеризации с присутствием шума), как следует из названия, оперирует плотностью данных. На вход он просит уже знакомую матрицу близости и два параметра — радиус окрестности и количество соседей.
 
-https://www.youtube.com/watch?v=svAtnZ5XjSI
+Освежить принцип работы алгоритма : https://www.youtube.com/watch?v=svAtnZ5XjSI
+
