@@ -27,10 +27,17 @@ scaler = StandardScaler()
 X_scaled = scaler.fit_transform(data_clean[['Recency', 'Frequency', 'Monetary']])
 ```
 
-.... мы можем перейти к тренировке нашей модели : 
+.... мы можем перейти к инициализации нашей модели : 
 
 ```python 
 from sklearn.cluster import DBSCAN
 
 dbscan = DBSCAN(eps=0.5, min_samples=5)
 ```
+
+и к тренировке : 
+
+```python
+data_clean['Cluster'] = dbscan.fit_predict(X_scaled)
+```
+
