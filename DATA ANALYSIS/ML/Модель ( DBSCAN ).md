@@ -41,6 +41,8 @@ dbscan = DBSCAN(eps=0.5, min_samples=5)
 data_clean['Cluster'] = dbscan.fit_predict(X_scaled)
 ```
 
+Далее, мы можем визуализировать как сработал наш алгоритм
+
 <h3>Как выбрать параметр eps ? </h3>
 
 
