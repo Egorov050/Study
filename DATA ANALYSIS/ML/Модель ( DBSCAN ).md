@@ -41,7 +41,20 @@ dbscan = DBSCAN(eps=0.5, min_samples=5)
 data_clean['Cluster'] = dbscan.fit_predict(X_scaled)
 ```
 
-Далее, мы можем визуализировать как сработал наш алгоритм. Мы можем использовать как 2D графики, так и 3D. Как построить 3D смотри тут [[VI]]
+Далее, мы можем визуализировать как сработал наш алгоритм. Мы можем использовать как 2D графики, так и 3D. Как построить 3D смотри тут [[3D Визуализация]]. Если вкратце, то вот пример : 
+
+```python
+fig = plt.figure(figsize=(10,10))
+ax = fig.add_subplot(111, projection='3d')
+
+ax.scatter(data_clean['Recency'], data_clean['Monetary'], data_clean['Frequency'], c=data_clean['Cluster'])
+ax.set_xlabel('Recency')
+ax.set_ylabel('Monetary')
+ax.set_zlabel('Frequency')
+
+plt.show()
+```
+
 
 <h3>Как выбрать параметр eps ? </h3>
 
