@@ -4,13 +4,23 @@ Density-based spatial clustering of applications with noise - плотностн
 Освежить принцип работы алгоритма : https://www.youtube.com/watch?v=svAtnZ5XjSI
 
 Перед тем, как начать тренировку модели. нужно : 
-1)  Подготовить данные [[Подготовка данных]], в том числе и масштабировать их
-2) Обработать категориальные данные 
-3) Удалить выбросы [[Удаление выбросов ( LocalOutlierFactor )]]
+1)  Удалить выбросы [[Удаление выбросов ( LocalOutlierFactor )]]
+2) Подготовить данные [[Подготовка данных]], в том числе и масштабировать их
+3) Обработать категориальные данные 
 
 После того, как мы сделали весь процесc : 
 
 ```python
 from sklearn.neighbors import LocalOutlierFactor
+from sklearn.cluster import DBSCAN
+from sklearn.preprocessing import StandardScaler
+from sklearn.neighbors import LocalOutlierFactor
 
+
+
+
+lof = LocalOutlierFactor(n_neighbors=20, contamination=0.1)
+outliers = lof.fit_predict(data)
+outliers_indices = data[outliers == -1].index
+data_clean = data.drop(outliers_indices)
 ```
