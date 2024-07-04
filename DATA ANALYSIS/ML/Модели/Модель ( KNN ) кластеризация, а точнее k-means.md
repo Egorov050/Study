@@ -52,6 +52,22 @@ plt.show()
 
 <h3>Elbow method (метод локтя)</h3>
 Основаная идея метода локтя заключается в следующем. Мы выбираем предположительное `количество кластеров` ( загоняем их в массив ) и для каждого числа кластеров, мы тренируем нашу модель и высчитываем `инерцию ( inertia )`. Это 
-метрика метрика представляет `собой сумму квадратов расстояний между точками и центройдами их кластеров`.  Для того, чтобы по
+метрика метрика представляет `собой сумму квадратов расстояний между точками и центройдами их кластеров`.  Напишем код, как это сделать и заодно построим график : 
+
+```python 
+inertias = []
+K_range = range(1, 10)
+for k in K_range:
+    kmeans = KMeans(n_clusters=k, random_state=42)
+    kmeans.fit(data_clean)
+    inertias.append(kmeans.inertia_)
+
+plt.figure(figsize=(8, 6))
+plt.plot(K_range, inertias, marker='o')
+plt.xlabel('Number of clusters')
+plt.ylabel('Inertia')
+plt.title('Elbow Method for Optimal k')
+plt.show()
+```
 
 
