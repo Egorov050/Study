@@ -101,6 +101,9 @@ $$ s = \frac{b - a}{\max(a, b)} $$
 
 На нашем примере получаем следующий график : 
 
+<img width="1062" alt="Screenshot 2024-07-04 at 18 48 29" src="https://github.com/Egorov050/Study/assets/115251460/1dbfaf7c-ed82-45b0-b0b4-aa2693b6c6aa">
+
+
 
 
 
