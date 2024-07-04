@@ -30,4 +30,6 @@ Simply, it’s a task where we want to predict whether an object belongs to one 
 <h2>Clustering problem</h2>
 Simply, it’s a task where we want to divide our objects into groups (segments), without knowing in advance the criteria and principles of division, but at the same time make the objects in the groups be as similar as possible to each other (refers to unsupervised learning)
 
+надо писать на русском
+
 
