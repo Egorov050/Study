@@ -42,5 +42,6 @@ outliers_indices = data[outliers == -1].index
 data_clean = data.drop(outliers_indices)
 ```
 
-По дефолту, мы вводим вот такие 
+По дефолту, мы вводим вот такие параметры : `n_neighbors=20, contamination=0.1`
+
 
