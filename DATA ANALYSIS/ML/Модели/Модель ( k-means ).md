@@ -75,4 +75,7 @@ plt.show()
 
 Получим вот такой график : 
 
+<img width="648" alt="Screenshot 2024-07-04 at 18 27 16" src="https://github.com/Egorov050/Study/assets/115251460/6e71e341-efeb-4ec5-adfb-02b4c0bc2829">
+
+
 
