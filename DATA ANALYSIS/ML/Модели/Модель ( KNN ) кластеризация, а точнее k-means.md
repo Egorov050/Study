@@ -26,5 +26,17 @@ data_clean['Cluster'] = kmeans.fit_predict(data_clean)
 
 ```python
 
+fig = plt.figure(figsize=(8, 6))
+ax = fig.add_subplot(111, projection='3d')
+
+ax.scatter(data_clean['Recency'], data_clean['Monetary'], data_clean['Frequency'], c=data_clean['Cluster'], cmap='viridis')
+ax.set_xlabel('Feature1')
+ax.set_ylabel('Feature2')
+ax.set_zlabel('Feature3')
+plt.title('K-means Clustering')
+plt.show()
 
 ```
+
+И получить вот такое : 
+
