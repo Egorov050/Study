@@ -56,11 +56,14 @@ plt.show()
 
 ```python 
 inertias = []
+
+
 K_range = range(1, 10)
 for k in K_range:
     kmeans = KMeans(n_clusters=k, random_state=42)
     kmeans.fit(data_clean)
     inertias.append(kmeans.inertia_)
+
 
 plt.figure(figsize=(8, 6))
 plt.plot(K_range, inertias, marker='o')
@@ -70,4 +73,5 @@ plt.title('Elbow Method for Optimal k')
 plt.show()
 ```
 
+Получим вот такой график : 
 
