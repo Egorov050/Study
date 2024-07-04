@@ -108,8 +108,25 @@ $$ s = \frac{b - a}{\max(a, b)} $$
 Для того, чтобы создать такой график, мы пишем : 
 
 ```python 
+from sklearn.metrics import silhouette_score
 
 
+results = []
+
+for i in range(2, 10):
+    k = i
+    kmeans = KMeans(n_clusters=k, random_state=42)
+    data_clean['Cluster'] = kmeans.fit_predict(data_clean)  
+    silhouette_avg = silhouette_score(data_clean, data_clean['Cluster'])  
+    results.append((silhouette_avg))
+
+
+fig = plt.figure(figsize=(20,10))
+ax = fig.add_subplot()
+x = [2,3,4,5,6,7,8,9]
+y = results
+plt.plot(x,y)
+plt.show()
 ```
 
 При выборе количества кластеров, мы должны опираться на оба графика. Таким образом, в нашем случае мы выберем либо `k == 2` , либо `k == 3`
