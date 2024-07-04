@@ -39,6 +39,7 @@ plt.show()
 ```
 
 И получить вот такое : 
+<img width="505" alt="Screenshot 2024-07-04 at 18 01 07" src="https://github.com/Egorov050/Study/assets/115251460/47c31a1b-d047-4a9f-b275-e084b842a326">
 
 ![[Screenshot 2024-07-04 at 18.01.07.png]]
 
