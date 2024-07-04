@@ -14,5 +14,17 @@ K-means лучше работает с шарообразными структу
 Далее, инициализируем и тренируем нашу модель : 
 
 ```python 
+from sklearn.cluster import KMeans
+
+k = 3
+kmeans = KMeans(n_clusters=k, random_state=42)
+data_clean['Cluster'] = kmeans.fit_predict(data_clean)
+```
+
+
+Далее, можем визуализировать данные : 
+
+```python
+
 
 ```
