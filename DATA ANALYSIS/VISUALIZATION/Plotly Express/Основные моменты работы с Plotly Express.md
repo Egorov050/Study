@@ -56,3 +56,4 @@ fig.show()
 - **Основные параметры**: `data_frame`, `x`, `y`, `color`, `size`, `hover_name`, `title`, `labels`, `template`.
 - **Настройки макета**: `update_layout`, `update_traces`.
 
+Для того, чтобы построить `3D` график, нужно просто дополнительно просписать 
