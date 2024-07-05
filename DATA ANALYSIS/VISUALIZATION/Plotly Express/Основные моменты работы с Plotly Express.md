@@ -56,4 +56,21 @@ fig.show()
 - **Основные параметры**: `data_frame`, `x`, `y`, `color`, `size`, `hover_name`, `title`, `labels`, `template`.
 - **Настройки макета**: `update_layout`, `update_traces`.
 
-Для того, чтобы построить `3D` график, нужно просто дополнительно просписать 
+Для того, чтобы построить `3D` график, нужно просто дополнительно прописать третью ось и все : 
+
+```python
+import plotly.express as px
+
+# Пример данных
+df = px.data.iris()
+
+# Создание 3D scatter plot
+fig = px.scatter_3d(df, x='sepal_length', y='sepal_width', z='petal_width', color='species',
+                    title="3D Scatter Plot of Iris Dataset")
+
+fig.update_layout(width=800, height=600)
+
+fig.show()
+
+```
+
