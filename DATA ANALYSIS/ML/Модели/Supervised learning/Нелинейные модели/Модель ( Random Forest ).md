@@ -35,8 +35,15 @@ RFR.fit(X_train, y_train)
 y_RFR_test_predict = RFR.predict(X_test)
 ```
 
+<h3>Классификация</h6>
+
+```python 
+model = RandomForestClassifier()
 
 
+model.fit(X_train, y_train) # Прогнозирование и оценка модели 
+y_pred = model.predict(X_test)
+```
 <h3>Гиперпараметры</h6>
 
 
