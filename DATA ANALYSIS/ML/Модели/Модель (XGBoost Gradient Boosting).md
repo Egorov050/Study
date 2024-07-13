@@ -124,4 +124,14 @@ param_grid = {
 
 ```
 
-Далее, иницианализируем модель и 
+Далее, инициализируем модель и приступим к тренировке : 
+
+```python 
+# Инициализация модели 
+model = xgb.XGBClassifier() 
+
+# Настройка поиска по сетке с кросс-валидацией 
+grid_search = GridSearchCV(estimator=model, param_grid=param_grid, cv=5, scoring='accuracy') grid_search.fit(X_train, y_train)
+```
+
+И далее выведем лучшие парметры
