@@ -113,4 +113,14 @@ y_pred = model.predict(dtest)
 from sklearn.model_selection import GridSearchCV
 ```
 
-Затем, зададим параметры , из которых нам нужно 
+Затем, зададим параметры , из которых нам нужно выбрать один сет гиперпараметров : 
+
+```python
+param_grid = {
+    'n_estimators': [50, 100, 150],
+    'max_depth': [3, 5, 7],
+    'learning_rate': [0.01, 0.1, 0.2]
+}
+
+```
+
