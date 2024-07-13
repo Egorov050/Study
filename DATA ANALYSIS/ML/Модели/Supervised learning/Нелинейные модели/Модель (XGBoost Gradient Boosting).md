@@ -74,6 +74,7 @@ model = xgb.XGBRegressor(params)
 
 ```python 
 import xgboost as xgb
+from xgboost import DMatrix
 
 params = {
     'objective': 'multi:softmax',
