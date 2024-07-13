@@ -137,6 +137,6 @@ grid_search = GridSearchCV(estimator=model, param_grid=param_grid, cv=5, scoring
 И далее выведем лучшие параметры : 
 
 ```python
-best_model = grid_search.best_estimator_
+best_model = grid_search.best_params_
 ```
 
