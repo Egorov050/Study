@@ -85,3 +85,5 @@ model = xgb.XGBClassifier(**params)
 
 ```
 
+`objective='multi:softmax'` если нам нужно предсказать один из нескольких классов.
+
