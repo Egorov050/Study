@@ -101,4 +101,6 @@ model = xgb.train(params, dtrain, num_boost_round=100)
 y_pred = model.predict(dtest)
 ```
 
-Появляется вопрос, как выбрать лучшие 
+Появляется вопрос, `как выбрать лучшие параметры?` 
+
+Один из возможных способов это использование `GridSearchCV`
