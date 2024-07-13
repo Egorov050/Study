@@ -89,5 +89,12 @@ model = xgb.XGBClassifier(**params)
 
 После того, как мы определили параметры, перейдем к тренировке : 
 
+```python
+model = xgb.train(params, dtrain, num_boost_round=100)
 ```
+
+и к прогнозу : 
+
+```python
+y_pred = model.predict(dtest)
 ```
