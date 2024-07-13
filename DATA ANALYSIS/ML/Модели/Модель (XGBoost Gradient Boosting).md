@@ -81,7 +81,7 @@ params = {
     'n_estimators': 100
 }
 
-model = xgb.XGBClassifier(**params)
+model = xgb.XGBClassifier(params)
 
 ```
 
