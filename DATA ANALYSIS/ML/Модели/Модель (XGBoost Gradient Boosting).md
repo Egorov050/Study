@@ -43,7 +43,9 @@ from xgboost import DMatrix
 
 Мы можем получить эти матрицы следующим способом : 
 
-```
+```python
+dtrain = DMatrix(X_train, label=y_train) 
+dtest = DMatrix(X_test, label=y_test)
 ```
 
 
