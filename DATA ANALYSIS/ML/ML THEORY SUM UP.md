@@ -53,7 +53,7 @@
 [[Подготовка данных]]
 [[Сплит данных перед моделью]]
 [[Модель ( KNN )  классификация и регрессия]]
-[[Модель ( Gradient boosting )]]
+[[Модель (lgb Gradient boosting )]]
 [[Модель ( Random Forest )]]
 [[Модель ( Decision Tree )]]
 [[Модель ( Logistic Regression )]]
