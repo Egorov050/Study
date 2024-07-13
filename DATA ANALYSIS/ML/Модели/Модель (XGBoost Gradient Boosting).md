@@ -56,6 +56,8 @@ params = {
 		  'max_depth': 6, 
 		  'learning_rate': 0.1, 
 		  'n_estimators': 100 }
+		  
+model = xgb.XGBRegressor(params)
 ```
 
 Давайте разберём каждый из них:
@@ -98,3 +100,5 @@ model = xgb.train(params, dtrain, num_boost_round=100)
 ```python
 y_pred = model.predict(dtest)
 ```
+
+Появляется вопрос, как выбрать лучшие 
