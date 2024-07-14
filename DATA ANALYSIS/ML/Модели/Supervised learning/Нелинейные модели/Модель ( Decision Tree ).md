@@ -171,3 +171,5 @@ clf.fit(X_train, y_train)
 
 ```
 
+
+Про гиперпараметры : https://www.youtube.com/watch?v=aWEdaXAZ01M
