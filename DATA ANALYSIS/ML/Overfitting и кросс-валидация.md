@@ -51,9 +51,10 @@ from sklearn.metrics import make_scorer, mean_squared_error
 model = LinearRegression()
 
 
-#далее мы инициализируем метрирку, по которой будем оценивать нашу модель : 
+# далее мы инициализируем метрирку, по которой будем оценивать нашу модель : 
 mse_scorer = make_scorer(mean_squared_error)
 
+# уже здесь мы прописываем 
 
 scores = cross_val_score(model, X, y, cv=10, scoring=mse_scorer)
 ```
