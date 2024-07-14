@@ -174,6 +174,6 @@ clf.fit(X_train, y_train)
 Если мы берем основные гиперпараметры, то чтобы `уменьшить` нам нужно : 
 - `max_depth` - уменьшить 
 - `min_samples_leaf` - увеличть 
-- 
--
-Про гиперпараметры и их влияние на переобучение : https://www.youtube.com/watch?v=aWEdaXAZ01M
+- `max_leaf_nodes` - уменьшить
+
+Более подробно про гиперпараметры и их влияние на переобучение : https://www.youtube.com/watch?v=aWEdaXAZ01M
