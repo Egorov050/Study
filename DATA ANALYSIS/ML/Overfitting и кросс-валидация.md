@@ -40,6 +40,8 @@
 
 ```python
 from sklearn.model_selection import cross_val_score
+from sklearn.metrics import make_scorer, mean_squared_error
+
 ```
 
 Далее, по классике мы работаем с нашими данными , чистим их, нормализуем, делим на тестовый и тренировочные семплы. Когда дело подходит до тренировки модели , то : 
