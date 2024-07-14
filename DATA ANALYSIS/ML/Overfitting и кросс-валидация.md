@@ -71,3 +71,5 @@ print("Mean MSE: ", scores.mean())
 print("Standard deviation: ", scores.std())
 ```
 
+Про переобучение : 
+https://www.youtube.com/watch?v=m7P7bnLxIc4
