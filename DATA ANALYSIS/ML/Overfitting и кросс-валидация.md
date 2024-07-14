@@ -44,3 +44,9 @@ from sklearn.model_selection import cross_val_score
 
 Далее, по классике мы работаем с нашими данными , чистим их, нормализуем, делим на тестовый и тренировочные семплы. Когда дело подходит до тренировки модели , то : 
 
+```python 
+# сначала инициализиуруем модель : 
+model = LinearRegression()
+
+scores = cross_val_score(model, X, y, cv=10, scoring=mse_scorer)
+```
