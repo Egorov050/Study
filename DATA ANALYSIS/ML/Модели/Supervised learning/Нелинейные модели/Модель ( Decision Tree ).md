@@ -171,6 +171,6 @@ clf.fit(X_train, y_train)
 
 ```
 
-Если мы 
+Если мы берем основные гиперпараметры, то чтобы `уменьшить` нам нужно : 
 
-Про гиперпараметры : https://www.youtube.com/watch?v=aWEdaXAZ01M
+Про гиперпараметры и их влияние на переобучение : https://www.youtube.com/watch?v=aWEdaXAZ01M
