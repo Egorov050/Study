@@ -45,5 +45,9 @@ H1 :  μ != ${\overline{X}}$
 Мы строим доверительный интервал относительно нашего гепотетического сренего популяции ( μ ) : 
 
 $$
-\text{Left} = \overline{X} - t_{0.025, 24} \cdot \frac{s}{\sqrt{25}} 
+\text{Left} = μ  - t_{\alpha/2, \, df} \cdot \frac{s}{\sqrt{n}} 
+$$
+
+$$
+\text{Right} = μ  + t_{\alpha/2, \, df} \cdot \frac{s}{\sqrt{n}} 
 $$
