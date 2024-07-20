@@ -97,4 +97,4 @@ $$
 $$
 Border  =   t_{\alpha/2, \, df} \cdot \sqrt{S_p^2 \left( \frac{1}{n_1} + \frac{1}{n_2} \right)}
 $$
-Если Border 
+Если {\bar{X}_1 - \bar{X}_2}
