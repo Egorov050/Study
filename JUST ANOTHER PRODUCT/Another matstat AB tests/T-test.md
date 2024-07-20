@@ -15,5 +15,5 @@ $$
 
 
 $$
-\text{R} = \overline{X} - t_{\alpha/2, \, df} \cdot \frac{s}{\sqrt{n}} 
+\text{Right} = \overline{X} + t_{\alpha/2, \, df} \cdot \frac{s}{\sqrt{n}} 
 $$
