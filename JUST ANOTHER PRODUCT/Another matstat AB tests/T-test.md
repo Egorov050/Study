@@ -57,4 +57,8 @@ $$
 
 ```python 
 data = np.random.normal(loc=5, scale=1, size=300000) 
+
+# среднее 5 и дисперсия 1
 ```
+
+Например
