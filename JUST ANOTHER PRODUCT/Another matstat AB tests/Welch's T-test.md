@@ -21,5 +21,18 @@ data = np.random.normal(loc=5, scale=1, size=300000)
 
 Далее, также выберем случайно две выборки : 
 
+```python
+sample_size = 200
+test_sample = np.random.choice(data, sample_size)
+
+control_size = 200
+control_sample = np.random.choice(data, control_size)
 ```
+
+Теперь приступим непосредственно к тесту : 
+
+```python
+t_stat, p_value = stats.ttest_ind(test_sample, control_sample, equal_var=False, alternative='two-sided')
 ```
+
+Здесь решает именно 
