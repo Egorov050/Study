@@ -134,4 +134,4 @@ t_stat, p_value = stats.ttest_ind(test_sample, control_sample, equal_var=True, a
 
 Рассмотрим параметр `alternative`. 
 
-Если `alternative='two-sided'`
+Если `alternative='two-sided'` это значит, что у мы тестируем двухстороннюю гипотезу и альтернативная гипотеза выглядит так : 
