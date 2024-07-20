@@ -35,4 +35,4 @@ control_sample = np.random.choice(data, control_size)
 t_stat, p_value = stats.ttest_ind(test_sample, control_sample, equal_var=False, alternative='two-sided')
 ```
 
-Здесь решает именно 
+Здесь решает именно `equal_var=False`. Это то самое отличие, которое выделяет t-test велча от обычного теста. 
