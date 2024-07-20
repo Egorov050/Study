@@ -108,4 +108,13 @@ $$
 data = np.random.normal(loc=5, scale=1, size=300000) 
 ```
 
-Теперь из нашей попу
+Теперь из нашей популяции сделаем рандомно два семпла : 
+
+```python
+sample_size = 200
+test_sample = np.random.choice(data, sample_size)
+
+control_size = 200
+control_sample = np.random.choice(data, control_size)
+```
+
