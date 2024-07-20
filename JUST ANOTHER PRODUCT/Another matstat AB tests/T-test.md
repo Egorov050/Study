@@ -129,5 +129,9 @@ control_sample = np.random.choice(data, control_size)
 Далее перейдем непосредственно к самому тесту. `T-test` находится в `stats.ttest_ind` : 
 
 ```python
-t_stat, p_value = stats.ttest_ind(test_sample, control_sample, equal_var=True)
+t_stat, p_value = stats.ttest_ind(test_sample, control_sample, equal_var=True, alternative='two-sided')
 ```
+
+Рассмотрим параметр `alternative`. 
+
+Если `alternative='two-sided'`
