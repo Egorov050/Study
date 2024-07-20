@@ -138,4 +138,6 @@ t_stat, p_value = stats.ttest_ind(test_sample, control_sample, equal_var=True, a
 
 ${\mu_1 \neq \mu_2}$
 
-Если  'alternative='less''` 
+Если  `alternative='less'` это значит, что мы тестируем одностороннюю гипотезу и наша альтернативная гипотеза выглядит так : 
+
+${\mu_1 \neq \mu_2}$
