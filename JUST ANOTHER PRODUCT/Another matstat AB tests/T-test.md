@@ -126,3 +126,4 @@ control_size = 200
 control_sample = np.random.choice(data, control_size)
 ```
 
+Далее перейдем непосредственно к самому тесту. `T-test` находится в 
