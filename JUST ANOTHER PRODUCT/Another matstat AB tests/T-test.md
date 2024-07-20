@@ -47,7 +47,7 @@ H1 :  μ != ${\overline{X}}$
 $$
 \text{Left} = μ  - t_{\alpha/2, \, df} \cdot \frac{s}{\sqrt{n}} 
 $$
-
 $$
 \text{Right} = μ  + t_{\alpha/2, \, df} \cdot \frac{s}{\sqrt{n}} 
 $$
+И если наше среднее выборки ( ${\overline{X}}$ ) > Right or ( ${\overline{X}}$ ) < Left
