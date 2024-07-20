@@ -2,3 +2,6 @@
 
 Для начала вспомним теорию по `t-test`
 
+$$
+\[ t = \frac{\overline{X_1} - \overline{X_2}}{s_p \sqrt{\frac{1}{n_1} + \frac{1}{n_2}}} \]
+$$
