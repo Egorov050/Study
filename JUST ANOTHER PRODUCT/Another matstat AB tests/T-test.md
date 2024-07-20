@@ -61,4 +61,15 @@ data = np.random.normal(loc=5, scale=1, size=300000)
 # среднее 5 и дисперсия 1
 ```
 
-Например
+Далее : 
+
+```python 
+m = np.array(data).mean()
+s = np.array(data).std()
+
+# мы предполагаем, что среднее ген.совоку
+mu = 5.0001
+sem = s / np.sqrt(300000)
+
+(m - mu)/sem
+```
