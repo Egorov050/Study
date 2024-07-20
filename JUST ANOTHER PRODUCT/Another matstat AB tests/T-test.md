@@ -136,4 +136,4 @@ t_stat, p_value = stats.ttest_ind(test_sample, control_sample, equal_var=True, a
 
 Если `alternative='two-sided'` это значит, что у мы тестируем двухстороннюю гипотезу и альтернативная гипотеза выглядит так : 
 
-${\mu_ 1   != \bar{X}_2}$
+${\mu_1 \neq \mu_2}$
