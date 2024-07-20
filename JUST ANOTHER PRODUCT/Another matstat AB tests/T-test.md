@@ -50,4 +50,4 @@ $$
 $$
 \text{Right} = μ  + t_{\alpha/2, \, df} \cdot \frac{s}{\sqrt{n}} 
 $$
-И если наше среднее выборки ( ${\overline{X}}$ ) > Right or ( ${\overline{X}}$ ) < Left
+И если наше среднее выборки ( ${\overline{X}}$ ) > Right or ( ${\overline{X}}$ ) < Left, в таком случае мы отвергаем нулевую гипотезу в пользу альтернативной. 
