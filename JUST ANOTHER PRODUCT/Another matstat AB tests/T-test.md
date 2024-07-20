@@ -10,5 +10,10 @@ $$
 Значение `t-value` в контексте `t-теста` показывает, насколько среднее значение выборки отличается от гипотетического среднего значения или среднего значения другой выборки в единицах стандартной ошибки. 
 
 $$
-\[ \left( \overline{X} - t_{\alpha/2, \, df} \cdot \frac{s}{\sqrt{n}}, \; \overline{X} + t_{\alpha/2, \, df} \cdot \frac{s}{\sqrt{n}} \right) \]
+\text{Left} = \overline{X} - t_{\alpha/2, \, df} \cdot \frac{s}{\sqrt{n}} 
+$$
+
+
+$$
+\text{R} = \overline{X} - t_{\alpha/2, \, df} \cdot \frac{s}{\sqrt{n}} 
 $$
