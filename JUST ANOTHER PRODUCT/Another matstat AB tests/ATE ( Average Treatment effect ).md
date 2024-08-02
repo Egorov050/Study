@@ -47,6 +47,9 @@ $y_i(0)$ - здоровье если не стал бахать лекарств
 
 И так далее.
 
+Почитать : 
+https://habr.com/ru/companies/citymobil/articles/560426/
+
 
 
 
