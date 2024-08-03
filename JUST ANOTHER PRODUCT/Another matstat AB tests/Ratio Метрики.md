@@ -3,7 +3,7 @@
 Например возьмем CTR
 
 $$
-CTR =.  
-
+\text{CTR}_{\text{overall}} = \frac{1}{N} \sum_{i=1}^{N} \text{CTR}_i = \frac{1}{N} \sum_{i=1}^{N} \frac{\text{Clicks}_i}{\text{Impressions}_i}
 $$
 
+В нашем случае clicks и views колерируют между собой. 
