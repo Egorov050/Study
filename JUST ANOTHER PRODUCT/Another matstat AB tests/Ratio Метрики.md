@@ -6,4 +6,9 @@ $$
 \text{CTR}_{\text{overall}} = \frac{1}{N} \sum_{i=1}^{N} \text{CTR}_i = \frac{1}{N} \sum_{i=1}^{N} \frac{\text{Clicks}_i}{\text{Impressions}_i}
 $$
 
-В нашем случае clicks и views колерируют между собой. 
+В нашем случае clicks и views коррелируют между собой потому что мы можем представить Clicks как : 
+
+$$
+\text{Clicks}_i = \text{Impressions}_i \times \text{CTR}_i
+$$
+
