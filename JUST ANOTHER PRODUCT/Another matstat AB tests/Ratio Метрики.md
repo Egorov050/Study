@@ -12,3 +12,4 @@ $$
 \text{Clicks}_i = \text{Impressions}_i \times \text{CTR}_i
 $$
 
+То есть между числителям и знаменателем есть связь. 
