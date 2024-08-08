@@ -7,7 +7,7 @@
 Определим новую метрику : 
 
 $$
-{Y_{cuped}} = Y - {\theta}X
+{Y_{cuped}} = Y - {\theta}(X - \mathbb{E}(x))
 $$
 
 Где : 
