@@ -51,4 +51,7 @@ ${\theta} = (COV(T, A) + COV(C,B)) / VAR(A) + VAR(B)$
 
 Этот метод, очень хорошо снижает дисперсию!
 
+![Uploading Screenshot 2024-08-08 at 17.11.30.png…]()
+
+
 
