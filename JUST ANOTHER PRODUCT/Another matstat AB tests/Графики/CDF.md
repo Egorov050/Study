@@ -10,3 +10,6 @@ sns.histplot(x='Income', data=df, hue='Group', bins=len(df), stat="density", ele
 
 `common_norm=False`: Определяет нормализацию по группам. Если `False`, каждая группа будет нормирована независимо, что полезно для сравнения различных групп. Если бы было `True`, данные для всех групп нормировались бы вместе.
 
+
+<img width="773" alt="Screenshot 2024-08-09 at 18 10 57" src="https://github.com/user-attachments/assets/3d376564-0a5b-4f5d-9d8d-2bbf03ecf2f8">
+
