@@ -1,5 +1,7 @@
 ```python
+
 sns.histplot(x='Income', data=df, hue='Group', bins=len(df), stat="density", element="step", fill=False, cumulative=True, common_norm=False);
+
 ```
 
 `stat="density"` : Задает статистику, которая будет отображаться на графике. Опция `"density"` нормирует высоту столбцов гистограммы так, чтобы общая площадь под гистограммой была равна 1. Это позволяет интерпретировать высоту столбцов как плотность вероятности.
