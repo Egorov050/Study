@@ -21,4 +21,29 @@ $$
 
 <h6>Как мы делаем это на питоне</h6>
 
+```python
+
+import numpy as np
+
+# Пример данных
+data = [7, 15, 36, 39, 41, 43, 46, 49, 50, 60, 120]
+
+# Находим первый и третий квартиль
+Q1 = np.percentile(data, 25)
+Q3 = np.percentile(data, 75)
+
+# Рассчитываем IQR
+IQR = Q3 - Q1
+
+# Вычисляем границы для определения выбросов
+lower_bound = Q1 - 1.5 * IQR
+upper_bound = Q3 + 1.5 * IQR
+
+print(f"Границы для выбросов: [{lower_bound}, {upper_bound}]")
+
+# Выделяем выбросы
+new_data = [x for x in data if x > lower_bound or x < upper_bound]
+print(new_data)
+
+```
 
