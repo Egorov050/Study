@@ -42,8 +42,17 @@ print(f"P-value: {p_value}")
 Для того , чтобы получить значения , мы можем воспользоваться : 
 
 ```python
-
 contingency_table = pd.crosstab(df['version'], df['retention_1'])
 contingency_table
+```
+
+И далее выдергивать значения из таблицы : 
+
+```python
+success_A = contingency_table[0][1]
+success_B = contingency_table[1][1]
+
+trials_A = contingency_table[0][1] + contingency_table[0][0]
+trials_B = contingency_table[1][1] + contingency_table[1][0]
 ```
 
