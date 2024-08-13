@@ -17,4 +17,26 @@ $$
 
 <h6>Как это сделать на питоне? </h6>
 
+Для этого импортируем `import statsmodels.api as sm` и проведем тест : 
+
+```python
+import statsmodels.api as sm
+
+# Количество успехов
+success_A = 30
+success_B = 40
+
+# Общее количество наблюдений
+trials_A = 100
+trials_B = 120
+
+# Выполнение Z-теста
+z_stat, p_value = sm.stats.proportions_ztest([success_A, success_B], [trials_A, trials_B])
+
+# Вывод результатов
+print(f"Z-statistic: {z_stat}")
+print(f"P-value: {p_value}")
+
+```
+
 
