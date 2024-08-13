@@ -5,5 +5,9 @@
 Дак вот , `z - value` мы можем рассчитать по следующей формуле : 
 
 $$
-
+Z = \frac{p_A - p_B}{\sqrt{p(1 - p) \left(\frac{1}{n_A} + \frac{1}{n_B}\right)}}
+$$
+Где:
+$$
+p = \frac{x_A + x_B}{n_A + n_B}
 $$
