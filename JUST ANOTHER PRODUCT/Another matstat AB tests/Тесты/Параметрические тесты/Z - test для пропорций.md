@@ -39,4 +39,11 @@ print(f"P-value: {p_value}")
 
 ```
 
+Для того , чтобы получить значения , мы можем воспользоваться : 
+
+```python
+
+contingency_table = pd.crosstab(df['version'], df['retention_1'])
+contingency_table
+```
 
