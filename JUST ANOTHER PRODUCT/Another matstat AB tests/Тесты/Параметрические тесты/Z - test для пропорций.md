@@ -53,6 +53,4 @@ success_A = contingency_table[0][1]
 success_B = contingency_table[1][1]
 
 trials_A = contingency_table[0][1] + contingency_table[0][0]
-trials_B = contingency_table[1][1] + contingency_table[1][0]
-```
-
+trials_B = contingency_table[1][1] + contingency_table[1]
