@@ -1,0 +1,8 @@
+
+
+
+
+Почитать : 
+https://habr.com/ru/articles/292312/
+
+https://gopractice.ru/product/added_value_metrics/
