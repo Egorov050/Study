@@ -3,6 +3,8 @@ Norht Star метрика должна отвечать на два вопрос
 - Объем ценности , который несет наш продукт 
 - Метрика должна показывать , что ей рост. 
 
+Фин. показатели не отображабт ценность продукта , который он создает  
+
 
 https://gopractice.ru/product/the-north-star-metric-guide/
 https://vc.ru/marketing/1118408-chto-takoe-north-star-metric-i-pochemu-eto-ne-vyruchka
