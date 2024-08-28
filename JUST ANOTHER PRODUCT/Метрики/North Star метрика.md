@@ -8,6 +8,10 @@ Norht Star метрика должна отвечать на два вопрос
 2) Его легко взломать бонусами.  Система лояльности , бонусы могут повысить выручки. Но пользователи привыкают к этим бонусам. Юзеры пользуются приложением только из - за бонусов => если мы их уберем , то все продуктовые метрики дропнутся. 
 
 
+NSM разных компаний : 
+![[Pasted image 20240828161358.png]]
+
+
 https://gopractice.ru/product/the-north-star-metric-guide/
 https://vc.ru/marketing/1118408-chto-takoe-north-star-metric-i-pochemu-eto-ne-vyruchka
 https://www.vccafe.com/2022/10/23/why-revenue-shouldnt-be-your-north-star-metric/
