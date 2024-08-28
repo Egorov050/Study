@@ -1,4 +1,7 @@
-Norht Star 
+Norht Star метрика должна отвечать на два вопроса : 
+
+- Объем ценности , который несет наш продукт 
+- Метрика должна показывать , что ей рост. 
 
 
 https://gopractice.ru/product/the-north-star-metric-guide/
