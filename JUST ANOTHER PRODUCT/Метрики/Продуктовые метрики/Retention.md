@@ -43,6 +43,9 @@
 
 `What I’m getting at here is that retention metrics can be misleading. If you don’t understand what the promised land looks like for your users, you will struggle to lead them there.`
 
+
+`Simply put, the retention metric is your definition of what a user must do on a regular basis to be considered retained. This metric has two simple components: **core action** and **natural frequency.`
+
 https://www.linkedin.com/pulse/product-fundamentals-practical-guide-improving-retention-evan-lewis
 
 
