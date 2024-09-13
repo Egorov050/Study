@@ -47,10 +47,6 @@
 `Simply put, the retention metric is your definition of what a user must do on a regular basis to be considered retained. This metric has two simple components: **core action** and **natural frequency.`
 `The core action is the main task a user performs within your product that leads to them realizing the value proposition. How often a user completes the core action and realizes the value proposition differs for every product - the rate at which they go through that process is called the natural frequency.`
 
-
-
-`
-
 https://www.linkedin.com/pulse/product-fundamentals-practical-guide-improving-retention-evan-lewis
 
 
