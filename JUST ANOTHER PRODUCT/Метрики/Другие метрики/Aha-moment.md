@@ -3,4 +3,11 @@ Aha-момент — это момент, когда клиент осознае
 Set-up момент — 
 
 
+
+
+
+Aha-moment
 https://habr.com/ru/companies/tbank/articles/775938/
+
+Set-up monet 
+https://www.reforge.com/guides/define-your-setup-moment
