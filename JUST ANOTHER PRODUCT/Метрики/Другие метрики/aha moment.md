@@ -1,1 +1,0 @@
-https://habr.com/ru/companies/tbank/articles/775938/
