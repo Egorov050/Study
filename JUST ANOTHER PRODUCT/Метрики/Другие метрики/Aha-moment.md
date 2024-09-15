@@ -8,7 +8,7 @@ Aha-момент — это момент, когда клиент осознае
 
 ![ф](https://github.com/user-attachments/assets/4181a54d-4f3f-48de-b6d5-e4d6c54b1b8a)
 
-Самое ключевое - 
+Самое ключевое - aha moment. 
 
 Aha-moment
 https://habr.com/ru/companies/tbank/articles/775938/
