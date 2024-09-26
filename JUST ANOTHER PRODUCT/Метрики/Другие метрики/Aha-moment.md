@@ -64,6 +64,7 @@ Aha-момент — это момент, когда клиент осознае
 Aha-moment
 https://habr.com/ru/companies/tbank/articles/775938/
 https://vc.ru/life/893044-sekretnaya-metodika-peregovorov-sposobnaya-svergat-prezidentov-istoricheskii-fakt
+https://gopractice.ru/product/identifying_the_aha_moment/
 
 Set-up monet 
 https://www.reforge.com/guides/define-your-setup-moment
