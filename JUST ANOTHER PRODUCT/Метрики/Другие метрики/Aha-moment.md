@@ -36,6 +36,9 @@ Aha-момент — это момент, когда клиент осознае
 
 <img width="677" alt="Screenshot 2024-09-26 at 18 29 29" src="https://github.com/user-attachments/assets/aef8c228-e6c1-478c-a318-f542de5435d9">
 
+<img width="751" alt="Screenshot 2024-09-26 at 18 34 19" src="https://github.com/user-attachments/assets/f1a02c7c-1432-465f-9f22-64290aa37434">
+
+
 
 
 Но это тот случай , когда нам нужно долго следить за пользователем. Рассмотрим другой способ. 
