@@ -40,6 +40,7 @@ Aha-момент — это момент, когда клиент осознае
 <img width="751" alt="Screenshot 2024-09-26 at 18 34 19" src="https://github.com/user-attachments/assets/f1a02c7c-1432-465f-9f22-64290aa37434">
 Также нам нужно знать , какова доля пользователей не совершили действия и не поняли ценности продукта : 
 
+<img width="731" alt="Screenshot 2024-09-26 at 18 44 41" src="https://github.com/user-attachments/assets/f5d3a3ae-cf0f-4881-841c-a4fa0181cb78">
 
 
 
