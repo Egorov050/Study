@@ -48,6 +48,8 @@ Aha-момент — это момент, когда клиент осознае
 
 >Можно ли считать , что когда человек почуствовал добавочную ценность продукта , то у него совершается aha-момент? Это тоже можно проверить количественно. 
 
+Начиная изучать aha-моменты при помощи качественных методов 
+
 Aha-moment
 https://habr.com/ru/companies/tbank/articles/775938/
 https://vc.ru/life/893044-sekretnaya-metodika-peregovorov-sposobnaya-svergat-prezidentov-istoricheskii-fakt
