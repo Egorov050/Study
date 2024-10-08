@@ -20,4 +20,5 @@ Time to value - метрика , которая отражает время , к
 
 
 https://gopractice.ru/product/user_activation_building_blocks/
+https://growth.design/case-studies/superhuman-user-onboarding
 
