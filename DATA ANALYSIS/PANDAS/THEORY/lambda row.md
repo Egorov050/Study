@@ -5,4 +5,5 @@ df['flag'] = df.apply(lambda row: 1 if row['eventName'] == 'download' and row['f
 
 ```
 
-Как мы используем  `lambda x`
+Как мы используем  `lambda x` мы с той же логикой можем использовать `lambda row`
+
