@@ -3,6 +3,7 @@
 Для базового запроса : 
 
 ```python
+import requests
 
 requests.get('https://api.github.com')
 
@@ -10,3 +11,6 @@ requests.get('https://api.github.com')
 
 ```
 
+Про статусы ( [[HTTP-статусы]] )
+
+Что
