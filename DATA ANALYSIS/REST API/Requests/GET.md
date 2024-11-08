@@ -9,4 +9,7 @@ requests.get('https://api.github.com')
 <Response [200]>
 
 ```
- 
+
+Серверы могут выдавать следующие ответы : 
+
+`100 - 199` 
