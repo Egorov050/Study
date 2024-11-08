@@ -4,6 +4,7 @@
 
 ```python
 import requests
+import json 
 
 requests.get('https://api.github.com')
 
@@ -65,6 +66,12 @@ response = requests.get('https://api.openweathermap.org/data/2.5/weather', param
 И мы можем очень гибко играться с этим. Например , посмотрим на api гитхаба : 
 
 ```python 
+
+data = requests.get('https://api.github.com/')
+data.json()
+
+# мы получим следующее : 
+
 
 
 ```
