@@ -113,5 +113,12 @@ data.json()
 
 Соответственно мы можем по этой апишке : 
 
+```python
+requests.get('https://api.github.com/search/repositories' , params = params)
+```
+
+и со следующими параметрами : 
+
+``
 
 
