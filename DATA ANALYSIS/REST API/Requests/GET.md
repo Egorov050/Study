@@ -70,8 +70,42 @@ response = requests.get('https://api.openweathermap.org/data/2.5/weather', param
 data = requests.get('https://api.github.com/')
 data.json()
 
-# мы получим следующее : 
+# мы получим следующий словарь : 
 
-
+{'current_user_url': '[https://api.github.com/user](https://api.github.com/user)',
+ 'current_user_authorizations_html_url': '[https://github.com/settings/connections/applications{/client_id](https://github.com/settings/connections/applications%7B/client_id)}',
+ 'authorizations_url': '[https://api.github.com/authorizations](https://api.github.com/authorizations)',
+ 'code_search_url': '[https://api.github.com/search/code?q={query}{&page,per_page,sort,order](https://api.github.com/search/code?q={query}{&page,per_page,sort,order)}',
+ 'commit_search_url': '[https://api.github.com/search/commits?q={query}{&page,per_page,sort,order](https://api.github.com/search/commits?q={query}{&page,per_page,sort,order)}',
+ 'emails_url': '[https://api.github.com/user/emails](https://api.github.com/user/emails)',
+ 'emojis_url': '[https://api.github.com/emojis](https://api.github.com/emojis)',
+ 'events_url': '[https://api.github.com/events](https://api.github.com/events)',
+ 'feeds_url': '[https://api.github.com/feeds](https://api.github.com/feeds)',
+ 'followers_url': '[https://api.github.com/user/followers](https://api.github.com/user/followers)',
+ 'following_url': '[https://api.github.com/user/following{/target](https://api.github.com/user/following%7B/target)}',
+ 'gists_url': '[https://api.github.com/gists{/gist_id](https://api.github.com/gists%7B/gist_id)}',
+ 'hub_url': '[https://api.github.com/hub](https://api.github.com/hub)',
+ 'issue_search_url': '[https://api.github.com/search/issues?q={query}{&page,per_page,sort,order](https://api.github.com/search/issues?q={query}{&page,per_page,sort,order)}',
+ 'issues_url': '[https://api.github.com/issues](https://api.github.com/issues)',
+ 'keys_url': '[https://api.github.com/user/keys](https://api.github.com/user/keys)',
+ 'label_search_url': '[https://api.github.com/search/labels?q={query}&repository_id={repository_id}{&page,per_page](https://api.github.com/search/labels?q={query}&repository_id={repository_id}{&page,per_page)}',
+ 'notifications_url': '[https://api.github.com/notifications](https://api.github.com/notifications)',
+ 'organization_url': '[https://api.github.com/orgs/{org](https://api.github.com/orgs/%7Borg)}',
+ 'organization_repositories_url': '[https://api.github.com/orgs/{org}/repos{?type,page,per_page,sort](https://api.github.com/orgs/%7Borg%7D/repos%7B?type,page,per_page,sort)}',
+ 'organization_teams_url': '[https://api.github.com/orgs/{org}/teams](https://api.github.com/orgs/%7Borg%7D/teams)',
+ 'public_gists_url': '[https://api.github.com/gists/public](https://api.github.com/gists/public)',
+ 'rate_limit_url': '[https://api.github.com/rate_limit](https://api.github.com/rate_limit)',
+ 'repository_url': '[https://api.github.com/repos/{owner}/{repo](https://api.github.com/repos/%7Bowner%7D/%7Brepo)}',
+ 'repository_search_url': '[https://api.github.com/search/repositories?q={query}{&page,per_page,sort,order](https://api.github.com/search/repositories?q={query}{&page,per_page,sort,order)}',
+ 'current_user_repositories_url': '[https://api.github.com/user/repos{?type,page,per_page,sort](https://api.github.com/user/repos%7B?type,page,per_page,sort)}',
+ 'starred_url': '[https://api.github.com/user/starred{/owner}{/repo](https://api.github.com/user/starred%7B/owner%7D%7B/repo)}',
+ 'starred_gists_url': '[https://api.github.com/gists/starred](https://api.github.com/gists/starred)',
+ 'topic_search_url': '[https://api.github.com/search/topics?q={query}{&page,per_page](https://api.github.com/search/topics?q={query}{&page,per_page)}',
+ 'user_url': '[https://api.github.com/users/{user](https://api.github.com/users/%7Buser)}',
+ 'user_organizations_url': '[https://api.github.com/user/orgs](https://api.github.com/user/orgs)',
+ 'user_repositories_url': '[https://api.github.com/users/{user}/repos{?type,page,per_page,sort](https://api.github.com/users/%7Buser%7D/repos%7B?type,page,per_page,sort)}',
+ 'user_search_url': '[https://api.github.com/search/users?q={query}{&page,per_page,sort,order](https://api.github.com/search/users?q={query}{&page,per_page,sort,order)}'}
 
 ```
+
+посмотрим например страницу поисковика гитхаба. Любой запрос будет выглядеть т
