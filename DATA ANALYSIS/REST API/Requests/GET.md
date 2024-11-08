@@ -119,6 +119,16 @@ requests.get('https://api.github.com/search/repositories' , params = params)
 
 и со следующими параметрами : 
 
-``
+```python 
+params = {
+    'q' : 'java',
+    'per_page': 100,  
+    'page': 1
+}
+```
 
+мы сможем по факту делать следующий запрос : 
+`https://github.com/search?q=java&type=repositories` 
+
+Также выше мы используем параметры 
 
