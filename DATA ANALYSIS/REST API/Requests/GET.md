@@ -15,3 +15,4 @@ requests.get('https://api.github.com')
 
 <h3>Headers</h3>
 
+ Headers это 
