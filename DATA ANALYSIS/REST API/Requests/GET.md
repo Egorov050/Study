@@ -144,32 +144,33 @@ params = {
 import requests
 
 params = {
-    'q': 'your_search_query',  # запрос
+    'q': 'java',  #  запрос
     'per_page': 100  # Количество результатов на страницу
 }
 
-all_items = []  # Список для хранения всех данных
+all_items = []  # Список для хранения всех элементов
 page = 1
 
 while True:
     params['page'] = page
     data = requests.get('https://api.github.com/search/repositories', params=params)
-    dat = data.json()
-    items = dat.get('items', [])
+    dat = data.json()  # Преобразуем ответ в формат JSON
+    items = dat.get('items', [])  # Получаем список 'items' (или пустой список, если его нет)
     
-    if not items:
+    if not items:  # Если на странице нет данных, выходим из цикла
         break
     
-    all_items.extend(items)  # Добавляем данные текущей страницы в общий список
-    page += 1
+    all_items.extend(items)  # Добавляем все элементы с текущей страницы в общий список
+    page += 1  # Переходим к следующей странице
 
-# Формируем общий JSON-объект
+# Собираем все данные в один JSON
 result_json = {
-    'total_count': dat.get('total_count', 0),
-    'incomplete_results': dat.get('incomplete_results', False),
-    'items': all_items
+    'total_count': dat.get('total_count', 0),  # Общее количество найденных репозиториев
+    'incomplete_results': dat.get('incomplete_results', False),  # Статус неполных результатов
+    'items': all_items  # Список всех элементов из всех страниц
 }
 
+# Выводим финальный результат
 print(result_json)
 
 ```
