@@ -37,7 +37,7 @@ requests.get('https://api.github.com')
 https://www.google.com/search?q=корги+&newwindow=1&sca_esv=fc2e42ae252a1d83&ei=2y0uZ9vtKPGJi-gPvOjGkQo&ved=0ahUKEwibx_SZhs2JAxXxxAIHHTy0MaIQ4dUDCA8&uact=5&oq=корги+&gs_lp=Egxnd3Mtd2l6LXNlcnAiC9C60L7RgNCz0LggMgUQABiABDIFEAAYgAQyCBAuGIAEGNQCMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIKEAAYgAQYQxiKBTIFEAAYgAQyBRAAGIAESLkkUMsFWJEhcAN4AZABAJgBtQKgAdkSqgEHMC4zLjYuMbgBA8gBAPgBAZgCDaACrhOoAgrCAgoQABiwAxjWBBhHwgINEAAYgAQYsAMYQxiKBcICDhAAGLADGOQCGNYE2AEBwgITEC4YgAQYsAMYQxjIAxiKBdgBAcICExAuGIAEGEMYtAIYigUY6gLYAQLCAhMQABiABBhDGLQCGIoFGOoC2AECwgIKEC4YgAQYQxiKBcICCxAuGIAEGNEDGMcBwgIFEC4YgATCAhkQLhiABBhDGIoFGJcFGNwEGN4EGOAE2AEBwgIOEAAYgAQYARhDGIoFGArCAgkQLhiABBgBGArCAgkQABiABBgBGArCAgwQLhiABBgBGNQCGArCAgcQABiABBgKwgIZEC4YgAQYQxiKBRiXBRjcBBjeBBjfBNgBAcICCxAuGIAEGAEYChgqwgIaEC4YgAQYARgKGCoYlwUY3AQY3gQY3wTYAQHCAhQQLhiABBiXBRjcBBjeBBjfBNgBAZgDBogGAZAGE7oGBggBEAEYCboGBAgCGAeSBwczLjIuNy4xoAf31wE&sclient=gws-wiz-serp
 ```
 
-Здесь мы можем видеть : 
+После `?` идеЗдесь мы можем видеть : 
 
 ```python
 {
@@ -60,4 +60,4 @@ params = {
 response = requests.get('https://api.openweathermap.org/data/2.5/weather', params = params)
 ```
 
-Узнать о параметрах мы можем в документации того API , кот. 
+Узнать о параметрах мы можем в документации того API , который мы хотим использовать. 
