@@ -25,3 +25,6 @@ requests.get('https://api.github.com')
 Видим `'Content-Type': 'application/json;`
 
 
+
+<h3>Params</h3>
+
