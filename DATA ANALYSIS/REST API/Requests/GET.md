@@ -46,4 +46,18 @@ https://www.google.com/search?q=корги+&newwindow=1&sca_esv=fc2e42ae252a1d83
 }
 ```
 
-По той же самой логике мы мо
+По той же самой логике мы можем прописать другие параметры , например : 
+
+```python 
+
+api_key = "3ac.............................."
+params = {
+    'q' : 'Москва',
+    'appid' : api_key,
+    'units' : 'metric'
+}
+
+response = requests.get('https://api.openweathermap.org/data/2.5/weather', params = params)
+```
+
+Узнать о параметрах мы можем в документации того API , кот. 
