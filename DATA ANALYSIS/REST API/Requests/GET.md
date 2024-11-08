@@ -130,5 +130,5 @@ params = {
 мы сможем по факту делать следующий запрос : 
 `https://github.com/search?q=java&type=repositories` 
 
-Также выше мы используем параметры 
+Также выше мы используем параметры `page` , `per_page`
 
