@@ -138,7 +138,36 @@ params = {
 То есть для того , чтобы вывести вообще все в json , нужно написать вот такую фигню? : 
 
 ```python
+import requests
 
+params = {
+    'q': 'your_search_query',  # запрос
+    'per_page': 100  # Количество результатов на страницу
+}
+
+all_items = []  # Список для хранения всех данных
+page = 1
+
+while True:
+    params['page'] = page
+    data = requests.get('https://api.github.com/search/repositories', params=params)
+    dat = data.json()
+    items = dat.get('items', [])
+    
+    if not items:
+        break
+    
+    all_items.extend(items)  # Добавляем данные текущей страницы в общий список
+    page += 1
+
+# Формируем общий JSON-объект
+result_json = {
+    'total_count': dat.get('total_count', 0),
+    'incomplete_results': dat.get('incomplete_results', False),
+    'items': all_items
+}
+
+print(result_json)
 
 ```
 
