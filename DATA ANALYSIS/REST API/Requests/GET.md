@@ -13,4 +13,5 @@ requests.get('https://api.github.com')
 
 Про статусы ( [[HTTP-статусы]] )
 
-Что
+<h3>Headers</h3>
+
