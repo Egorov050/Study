@@ -24,7 +24,7 @@
 		{"id":"083a4d74069ed31b","type":"text","text":"\tDOCKER\t\t СI / CD PIPLINE ","x":740,"y":30,"width":360,"height":50},
 		{"id":"62855dc9eacbb3dc","type":"text","text":"\tDOCKER\t\t СI / CD PIPLINE ","x":740,"y":85,"width":360,"height":50},
 		{"id":"5671a5595e8fbb7b","type":"text","text":"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tAPI GATEAWAY ","x":140,"y":-45,"width":210,"height":205},
-		{"id":"e4eeea753a90506e","type":"text","text":"Хранилища","x":1200,"y":180,"width":220,"height":110}
+		{"id":"e4eeea753a90506e","type":"text","text":"Хранилища S3 ","x":1200,"y":180,"width":220,"height":110}
 	],
 	"edges":[
 		{"id":"e480b9c03b94e812","fromNode":"7c8918d0b57ea39b","fromSide":"right","toNode":"839dacbe51f3edf5","toSide":"left"},
