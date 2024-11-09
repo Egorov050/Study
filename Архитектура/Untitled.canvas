@@ -1,7 +1,8 @@
 {
 	"nodes":[
 		{"id":"81810d42032ca37a","x":-780,"y":-220,"width":480,"height":420,"color":"#594f4f","type":"text","text":"Front "},
-		{"id":"d4979d23071adf6e","type":"text","text":"Backend ( сервер )","x":-60,"y":-220,"width":480,"height":420,"color":"#594f4f"}
+		{"id":"d4979d23071adf6e","type":"text","text":"Backend ( сервер )","x":-60,"y":-220,"width":480,"height":420,"color":"#594f4f"},
+		{"id":"7c8918d0b57ea39b","x":70,"y":-65,"width":220,"height":110,"type":"text","text":"приложение ( ядро ) "}
 	],
 	"edges":[]
 }
