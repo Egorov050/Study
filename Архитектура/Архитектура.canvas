@@ -15,7 +15,8 @@
 		{"id":"11839724a42fdab5","type":"text","text":"JS","x":-680,"y":-30,"width":100,"height":50,"color":"6"},
 		{"id":"05beb5905b312473","type":"text","text":"БАНДЛ","x":-1340,"y":-35,"width":120,"height":55,"color":"6"},
 		{"id":"8cc74ec818468f97","type":"text","text":"noSQL ( MongoDB )","x":-100,"y":-280,"width":220,"height":110},
-		{"id":"446985ae31e1524e","type":"text","text":"cache \nМожно использовать : redis , memcache ","x":160,"y":-280,"width":220,"height":110}
+		{"id":"446985ae31e1524e","type":"text","text":"cache \nМожно использовать : redis , memcache ","x":160,"y":-280,"width":220,"height":110},
+		{"id":"0ffc87e09a335a81","x":-1675,"y":240,"width":1415,"height":80,"type":"text","text":"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tСI / CD PIPLINE "}
 	],
 	"edges":[
 		{"id":"e480b9c03b94e812","fromNode":"7c8918d0b57ea39b","fromSide":"right","toNode":"839dacbe51f3edf5","toSide":"left"},
