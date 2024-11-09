@@ -26,7 +26,7 @@
 		{"id":"446985ae31e1524e","type":"text","text":"cache \nМожно использовать : redis , memcache ","x":1240,"y":-215,"width":220,"height":110},
 		{"id":"e4eeea753a90506e","type":"text","text":"Хранилища S3 ","x":1240,"y":220,"width":220,"height":110},
 		{"id":"9049571b30ba783d","type":"text","text":"Аналитика (логи)\nClickHouse ","x":630,"y":-270,"width":220,"height":110},
-		{"id":"dde79db5829e3cfc","type":"text","text":"Аналитика (логи)\nClickHouse ","x":365,"y":-270,"width":220,"height":110}
+		{"id":"dde79db5829e3cfc","type":"text","text":"Scheduler \n( Планировщик )","x":365,"y":-270,"width":220,"height":110}
 	],
 	"edges":[
 		{"id":"e480b9c03b94e812","fromNode":"7c8918d0b57ea39b","fromSide":"right","toNode":"839dacbe51f3edf5","toSide":"left"},
@@ -43,6 +43,7 @@
 		{"id":"bd7cea9c09a46a3d","fromNode":"446985ae31e1524e","fromSide":"left","toNode":"7c8918d0b57ea39b","toSide":"right"},
 		{"id":"5d9fd3c071ff847d","fromNode":"7c8918d0b57ea39b","fromSide":"right","toNode":"e4eeea753a90506e","toSide":"left"},
 		{"id":"c4315f5db7cef163","fromNode":"9049571b30ba783d","fromSide":"bottom","toNode":"7c8918d0b57ea39b","toSide":"top"},
-		{"id":"0ee91e7fe5334aab","fromNode":"7c8918d0b57ea39b","fromSide":"top","toNode":"9049571b30ba783d","toSide":"bottom"}
+		{"id":"0ee91e7fe5334aab","fromNode":"7c8918d0b57ea39b","fromSide":"top","toNode":"9049571b30ba783d","toSide":"bottom"},
+		{"id":"69c557a8027c5642","fromNode":"dde79db5829e3cfc","fromSide":"bottom","toNode":"7c8918d0b57ea39b","toSide":"top"}
 	]
 }
