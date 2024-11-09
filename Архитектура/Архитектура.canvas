@@ -1,22 +1,19 @@
 {
 	"nodes":[
-		{"id":"33b4dbca62c5bc3f","x":-1120,"y":-85,"width":790,"height":260,"type":"group","label":"Untitled group"},
-		{"id":"0323e6fce2a9e50f","x":-1120,"y":-85,"width":790,"height":260,"type":"group"},
-		{"id":"81810d42032ca37a","type":"text","text":"Клиент ( Front ) ","x":-1640,"y":-220,"width":1340,"height":580,"color":"#594f4f"},
 		{"id":"d4979d23071adf6e","type":"text","text":"Backend ( сервер )","x":-160,"y":-220,"width":780,"height":580,"color":"#594f4f"},
 		{"id":"7c8918d0b57ea39b","type":"text","text":"приложение ( ядро ) ","x":-100,"y":-120,"width":220,"height":110},
 		{"id":"839dacbe51f3edf5","type":"text","text":"база данных ","x":160,"y":-120,"width":220,"height":110},
 		{"id":"cc16417e614be0fc","type":"text","text":"WEB SERVER \nНапример NGINX","x":-1600,"y":-65,"width":260,"height":220},
-		{"id":"e086fa1b5380915c","type":"text","text":"Сборщик\nНапример webpack / rollup / ","x":-1100,"y":-65,"width":260,"height":220},
-		{"id":"e2b6d8e255e79064","type":"text","text":"html","x":-610,"y":-65,"width":260,"height":220},
-		{"id":"8b10be809f0c6507","type":"text","text":"css","x":-460,"y":-5,"width":100,"height":50,"color":"6"},
-		{"id":"057517539b0b3075","type":"text","text":"css","x":-600,"y":-5,"width":100,"height":50,"color":"6"},
-		{"id":"2be5dda841e9306e","type":"text","text":"JS","x":-600,"y":75,"width":100,"height":50,"color":"6"},
-		{"id":"9b15f2be8a6f8a3d","type":"text","text":"JS","x":-460,"y":75,"width":100,"height":50,"color":"6"}
+		{"id":"4d30c019c16561d8","type":"text","text":"Сборщик\nНапример webpack / rollup / ","x":-1120,"y":-65,"width":280,"height":220},
+		{"id":"e175e2910cc65eaf","type":"text","text":"html","x":-610,"y":-65,"width":260,"height":220},
+		{"id":"236113f9d842cb3a","type":"text","text":"css","x":-460,"y":-5,"width":100,"height":50,"color":"6"},
+		{"id":"50e494181f12a320","type":"text","text":"css","x":-600,"y":-5,"width":100,"height":50,"color":"6"},
+		{"id":"11b9c6eae7af02ee","type":"text","text":"JS","x":-600,"y":75,"width":100,"height":50,"color":"6"},
+		{"id":"1810c241c84b4133","type":"text","text":"JS","x":-460,"y":75,"width":100,"height":50,"color":"6"}
 	],
 	"edges":[
 		{"id":"e480b9c03b94e812","fromNode":"7c8918d0b57ea39b","fromSide":"right","toNode":"839dacbe51f3edf5","toSide":"left"},
 		{"id":"6f4ba76dbcb1da92","fromNode":"7c8918d0b57ea39b","fromSide":"right","toNode":"839dacbe51f3edf5","toSide":"bottom"},
-		{"id":"2fff724588c340fc","fromNode":"e2b6d8e255e79064","fromSide":"left","toNode":"e086fa1b5380915c","toSide":"right"}
+		{"id":"5c2228200f1ea29e","fromNode":"e175e2910cc65eaf","fromSide":"left","toNode":"4d30c019c16561d8","toSide":"right"}
 	]
 }
