@@ -20,8 +20,9 @@
 		{"id":"36ac9dbb88718f30","type":"text","text":"сервис авторизации ","x":0,"y":10,"width":250,"height":50},
 		{"id":"0f43048f71265884","type":"text","text":"интернет магазин ","x":0,"y":70,"width":250,"height":50},
 		{"id":"1d8ba868f825da71","type":"text","text":"новостная лента ","x":0,"y":125,"width":250,"height":50},
-		{"id":"2db4ed7da5c995bd","type":"text","text":"\tDOCKER\t\t СI / CD PIPLINE ","x":280,"y":320,"width":380,"height":60},
-		{"id":"2481dbebb5426af3","type":"text","text":"\tDOCKER\t\t СI / CD PIPLINE ","x":260,"y":10,"width":380,"height":50}
+		{"id":"2481dbebb5426af3","type":"text","text":"\tDOCKER\t\t СI / CD PIPLINE ","x":280,"y":10,"width":360,"height":50},
+		{"id":"083a4d74069ed31b","type":"text","text":"\tDOCKER\t\t СI / CD PIPLINE ","x":280,"y":70,"width":360,"height":50},
+		{"id":"62855dc9eacbb3dc","type":"text","text":"\tDOCKER\t\t СI / CD PIPLINE ","x":280,"y":125,"width":360,"height":50}
 	],
 	"edges":[
 		{"id":"e480b9c03b94e812","fromNode":"7c8918d0b57ea39b","fromSide":"right","toNode":"839dacbe51f3edf5","toSide":"left"},
