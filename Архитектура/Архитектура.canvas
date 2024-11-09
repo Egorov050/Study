@@ -19,8 +19,8 @@
 		{"id":"446985ae31e1524e","type":"text","text":"cache \nМожно использовать : redis , memcache ","x":740,"y":-175,"width":220,"height":110},
 		{"id":"8cc74ec818468f97","type":"text","text":"noSQL ( MongoDB )","x":380,"y":-175,"width":220,"height":110},
 		{"id":"36ac9dbb88718f30","type":"text","text":"сервис авторизации ","x":365,"y":10,"width":250,"height":50},
-		{"id":"0f43048f71265884","type":"text","text":"сервис авторизации ","x":365,"y":70,"width":250,"height":50},
-		{"id":"1d8ba868f825da71","type":"text","text":"сервис авторизации ","x":295,"y":84,"width":250,"height":50}
+		{"id":"0f43048f71265884","type":"text","text":"интернет магазин ","x":365,"y":70,"width":250,"height":50},
+		{"id":"1d8ba868f825da71","type":"text","text":"новостная лента ","x":365,"y":125,"width":250,"height":50}
 	],
 	"edges":[
 		{"id":"e480b9c03b94e812","fromNode":"7c8918d0b57ea39b","fromSide":"right","toNode":"839dacbe51f3edf5","toSide":"left"},
