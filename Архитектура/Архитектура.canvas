@@ -25,7 +25,7 @@
 		{"id":"8cc74ec818468f97","type":"text","text":"noSQL ( MongoDB )","x":880,"y":-270,"width":220,"height":110},
 		{"id":"446985ae31e1524e","type":"text","text":"cache \nМожно использовать : redis , memcache ","x":1240,"y":-215,"width":220,"height":110},
 		{"id":"e4eeea753a90506e","type":"text","text":"Хранилища S3 ","x":1240,"y":220,"width":220,"height":110},
-		{"id":"9049571b30ba783d","type":"text","text":"Аналитика (логи)\nCl","x":460,"y":-270,"width":220,"height":110}
+		{"id":"9049571b30ba783d","type":"text","text":"Аналитика (логи)\nClickHouse ","x":460,"y":-270,"width":220,"height":110}
 	],
 	"edges":[
 		{"id":"e480b9c03b94e812","fromNode":"7c8918d0b57ea39b","fromSide":"right","toNode":"839dacbe51f3edf5","toSide":"left"},
