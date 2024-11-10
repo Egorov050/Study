@@ -1,6 +1,5 @@
 {
 	"nodes":[
-		{"id":"dcfa5f8f3dc21827","x":423,"y":-174,"width":250,"height":60,"type":"text","text":""},
 		{"id":"4d30c019c16561d8","type":"text","text":"Сборщик\nНапример webpack / rollup / vite","x":-1440,"y":-65,"width":320,"height":220},
 		{"id":"bf00f4f0505872c9","type":"text","text":"css","x":-1080,"y":-110,"width":100,"height":50,"color":"6"},
 		{"id":"bd73996582d92a1d","type":"text","text":"JS","x":-1080,"y":-30,"width":100,"height":50,"color":"6"},
@@ -41,7 +40,8 @@
 		{"id":"c922fd756e60daee","type":"text","text":"ElasticSearch ","x":1495,"y":305,"width":220,"height":110},
 		{"id":"db75393986ce3453","type":"text","text":"Kubernetes","x":1860,"y":305,"width":220,"height":110},
 		{"id":"183d94894b86f74b","x":600,"y":-420,"width":1880,"height":120,"type":"text","text":"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tBackend"},
-		{"id":"98cd0ae71d24497b","type":"text","text":"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFrontend","x":-2220,"y":-420,"width":2220,"height":120}
+		{"id":"98cd0ae71d24497b","type":"text","text":"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFrontend","x":-2220,"y":-420,"width":2220,"height":120},
+		{"id":"dcfa5f8f3dc21827","x":160,"y":-420,"width":250,"height":120,"type":"text","text":"\t\t\t\t\t\t\t\t\t\t\t\t\t\tREST API "}
 	],
 	"edges":[
 		{"id":"e480b9c03b94e812","fromNode":"7c8918d0b57ea39b","fromSide":"right","toNode":"839dacbe51f3edf5","toSide":"left"},
@@ -72,6 +72,10 @@
 		{"id":"92d9aa4ce411be9a","fromNode":"917c87afdf974158","fromSide":"left","toNode":"cc16417e614be0fc","toSide":"right"},
 		{"id":"6a5a7351d01a9546","fromNode":"e0c15ac863c8c7b9","fromSide":"left","toNode":"cc16417e614be0fc","toSide":"right"},
 		{"id":"0f165ef0bddcdc0e","fromNode":"c922fd756e60daee","fromSide":"top","toNode":"7c8918d0b57ea39b","toSide":"bottom"},
-		{"id":"f995cba9a0eb7487","fromNode":"db75393986ce3453","fromSide":"top","toNode":"7c8918d0b57ea39b","toSide":"bottom"}
+		{"id":"f995cba9a0eb7487","fromNode":"db75393986ce3453","fromSide":"top","toNode":"7c8918d0b57ea39b","toSide":"bottom"},
+		{"id":"102ef74acfea25cd","fromNode":"183d94894b86f74b","fromSide":"left","toNode":"dcfa5f8f3dc21827","toSide":"right"},
+		{"id":"8b98b1587af81660","fromNode":"98cd0ae71d24497b","fromSide":"right","toNode":"dcfa5f8f3dc21827","toSide":"left"},
+		{"id":"787c0abb00d4e05f","fromNode":"dcfa5f8f3dc21827","fromSide":"left","toNode":"98cd0ae71d24497b","toSide":"right"},
+		{"id":"31e2d437d07e3956","fromNode":"dcfa5f8f3dc21827","fromSide":"right","toNode":"183d94894b86f74b","toSide":"left"}
 	]
 }
