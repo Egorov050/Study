@@ -28,9 +28,10 @@
 		{"id":"e0c15ac863c8c7b9","type":"text","text":"датацентр 3","x":-1900,"y":93,"width":210,"height":50},
 		{"id":"cc16417e614be0fc","type":"text","text":"WEB SERVER \nНапример NGINX","x":-2220,"y":-70,"width":240,"height":220},
 		{"id":"05beb5905b312473","type":"text","text":"БАНДЛ","x":-1600,"y":-92,"width":120,"height":55,"color":"6"},
-		{"id":"c48652fff00c2db0","type":"text","text":"Монорепозиторий","x":-800,"y":-260,"width":560,"height":560},
-		{"id":"ce6e47de3aecf35a","x":-770,"y":-142,"width":250,"height":345,"type":"text","text":""},
-		{"id":"bfe9d590a48e7405","type":"text","text":"","x":-490,"y":-128,"width":250,"height":345}
+		{"id":"c48652fff00c2db0","type":"text","text":"Монорепозиторий","x":-800,"y":-260,"width":600,"height":680},
+		{"id":"ce6e47de3aecf35a","x":-770,"y":-142,"width":250,"height":462,"type":"text","text":""},
+		{"id":"bfe9d590a48e7405","type":"text","text":"","x":-480,"y":-142,"width":250,"height":345},
+		{"id":"5b08576bdc4cae33","x":-750,"y":-107,"width":210,"height":60,"type":"text","text":"микрофронт сервиса авторизации"}
 	],
 	"edges":[
 		{"id":"e480b9c03b94e812","fromNode":"7c8918d0b57ea39b","fromSide":"right","toNode":"839dacbe51f3edf5","toSide":"left"},
