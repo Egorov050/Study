@@ -39,7 +39,8 @@
 		{"id":"eaf480b43c597259","type":"text","text":"DOCKER\t\t СI / CD PIPLINE ","x":-735,"y":286,"width":300,"height":50,"color":"2"},
 		{"id":"c922fd756e60daee","type":"text","text":"ElasticSearch ","x":1495,"y":305,"width":220,"height":110},
 		{"id":"db75393986ce3453","type":"text","text":"Kubernetes","x":1860,"y":305,"width":220,"height":110},
-		{"id":"183d94894b86f74b","x":600,"y":-360,"width":250,"height":60,"type":"text","text":""}
+		{"id":"183d94894b86f74b","x":600,"y":-420,"width":1880,"height":120,"type":"text","text":"\t\t\t\t\t\t\t\t\t\t\t\t\tBackend"},
+		{"id":"98cd0ae71d24497b","type":"text","text":"\t\t\t\t\t\t\t\t\t\t\t\t\tBackend","x":-1880,"y":-420,"width":1880,"height":120}
 	],
 	"edges":[
 		{"id":"e480b9c03b94e812","fromNode":"7c8918d0b57ea39b","fromSide":"right","toNode":"839dacbe51f3edf5","toSide":"left"},
