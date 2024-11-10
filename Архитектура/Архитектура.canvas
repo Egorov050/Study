@@ -30,7 +30,7 @@
 		{"id":"05beb5905b312473","type":"text","text":"БАНДЛ","x":-1600,"y":-92,"width":120,"height":55,"color":"6"},
 		{"id":"c48652fff00c2db0","type":"text","text":"Монорепозиторий","x":-800,"y":-260,"width":800,"height":680},
 		{"id":"ce6e47de3aecf35a","type":"text","text":"Сервисы","x":-770,"y":-160,"width":370,"height":560},
-		{"id":"bfe9d590a48e7405","type":"text","text":"Пакеты ","x":-360,"y":-160,"width":330,"height":560},
+		{"id":"bfe9d590a48e7405","type":"text","text":"Пакеты ","x":-360,"y":-160,"width":340,"height":560},
 		{"id":"5b08576bdc4cae33","type":"text","text":"микрофронт сервиса авторизации","x":-750,"y":-71,"width":330,"height":131,"color":"6"},
 		{"id":"b15e28cab03db47c","type":"text","text":"DOCKER\t\t СI / CD PIPLINE ","x":-735,"y":-5,"width":300,"height":50,"color":"2"},
 		{"id":"74e09e42861a245b","type":"text","text":"микрофронт интернет магазина","x":-750,"y":80,"width":330,"height":131,"color":"6"},
@@ -42,7 +42,9 @@
 		{"id":"183d94894b86f74b","x":600,"y":-420,"width":1880,"height":120,"type":"text","text":"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tBackend"},
 		{"id":"98cd0ae71d24497b","type":"text","text":"\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tFrontend","x":-2220,"y":-420,"width":2220,"height":120},
 		{"id":"dcfa5f8f3dc21827","x":160,"y":-420,"width":250,"height":120,"type":"text","text":"\t\t\t\t\t\t\t\t\t\t\t\t\t\tREST API "},
-		{"id":"3c727af452a5bde5","type":"text","text":"микрофронт сервиса авторизации","x":-360,"y":-70,"width":330,"height":131,"color":"6"}
+		{"id":"3c727af452a5bde5","type":"text","text":"\t\t\t\t\t\t\t\t\t\t\tUI KIT","x":-345,"y":-70,"width":310,"height":115,"color":"6"},
+		{"id":"c2bfef077a149f7b","type":"text","text":"\t\t\t\t\t\t\t\t\t\t\tSTDLIB","x":-345,"y":56,"width":310,"height":115,"color":"6"},
+		{"id":"334c7e29c6e5f500","type":"text","text":"\t\t\t\t\t\t\t\t\t\t\tSTDLIB","x":-162,"y":-2,"width":310,"height":115,"color":"6"}
 	],
 	"edges":[
 		{"id":"e480b9c03b94e812","fromNode":"7c8918d0b57ea39b","fromSide":"right","toNode":"839dacbe51f3edf5","toSide":"left"},
