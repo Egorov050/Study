@@ -31,12 +31,12 @@
 		{"id":"c48652fff00c2db0","type":"text","text":"Монорепозиторий","x":-800,"y":-260,"width":800,"height":680},
 		{"id":"ce6e47de3aecf35a","type":"text","text":"Сервисы","x":-770,"y":-160,"width":370,"height":560},
 		{"id":"bfe9d590a48e7405","type":"text","text":"Пакеты ","x":-360,"y":-160,"width":320,"height":560},
-		{"id":"5b08576bdc4cae33","type":"text","text":"микрофронт сервиса авторизации","x":-750,"y":-111,"width":330,"height":131},
-		{"id":"b15e28cab03db47c","type":"text","text":"DOCKER\t\t СI / CD PIPLINE ","x":-735,"y":-45,"width":300,"height":50,"color":"2"},
-		{"id":"74e09e42861a245b","type":"text","text":"микрофронт интернет магазина","x":-750,"y":42,"width":330,"height":131},
-		{"id":"c3f463161fc7d775","type":"text","text":"DOCKER\t\t СI / CD PIPLINE ","x":-735,"y":108,"width":300,"height":50,"color":"2"},
-		{"id":"30d810b2b39ecca5","type":"text","text":"микрофронт новостной ленты","x":-750,"y":200,"width":330,"height":131},
-		{"id":"eaf480b43c597259","type":"text","text":"DOCKER\t\t СI / CD PIPLINE ","x":-735,"y":266,"width":300,"height":50,"color":"2"}
+		{"id":"5b08576bdc4cae33","type":"text","text":"микрофронт сервиса авторизации","x":-750,"y":-71,"width":330,"height":131},
+		{"id":"b15e28cab03db47c","type":"text","text":"DOCKER\t\t СI / CD PIPLINE ","x":-735,"y":-5,"width":300,"height":50,"color":"2"},
+		{"id":"74e09e42861a245b","type":"text","text":"микрофронт интернет магазина","x":-750,"y":80,"width":330,"height":131},
+		{"id":"c3f463161fc7d775","type":"text","text":"DOCKER\t\t СI / CD PIPLINE ","x":-735,"y":146,"width":300,"height":50,"color":"2"},
+		{"id":"30d810b2b39ecca5","type":"text","text":"микрофронт новостной ленты","x":-750,"y":240,"width":330,"height":131},
+		{"id":"eaf480b43c597259","type":"text","text":"DOCKER\t\t СI / CD PIPLINE ","x":-735,"y":286,"width":300,"height":50,"color":"2"}
 	],
 	"edges":[
 		{"id":"e480b9c03b94e812","fromNode":"7c8918d0b57ea39b","fromSide":"right","toNode":"839dacbe51f3edf5","toSide":"left"},
