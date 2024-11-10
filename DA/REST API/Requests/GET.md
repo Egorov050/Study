@@ -175,3 +175,12 @@ print(result_json)
 
 ```
 
+Для того , чтобы не казаться ботом для сайта нужно прописать параметр headers : 
+
+```python 
+
+"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 YaBrowser/24.10.0.0 Safari/537.36"
+
+```
+
+Чтобы протестить , что видит 
