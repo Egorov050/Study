@@ -103,6 +103,29 @@ print("Коэффициент Жаккара:", jaccard_index)
 ```
 
 
+```SQL
+
+-- Подсчет пересечения (пользователи, вернувшиеся и в 7 и в 28 день)
+WITH intersect AS (
+    SELECT COUNT(*) AS intersection_count
+    FROM retention_data
+    WHERE retained_7d = 1 AND retained_28d = 1
+),
+
+-- Подсчет объединения (пользователи, вернувшиеся хотя бы в один из периодов)
+union_data AS (
+    SELECT COUNT(*) AS union_count
+    FROM retention_data
+    WHERE retained_7d = 1 OR retained_28d = 1
+)
+
+-- Вычисление коэффициента Жаккара
+SELECT 
+    intersection_count / CAST(union_count AS FLOAT) AS jaccard_index
+FROM 
+    intersect, union_data;
+
+```
 
 
 
