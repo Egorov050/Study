@@ -9,8 +9,10 @@ aggregate_function(column) filter (where condition)
 
 ```SQL 
 SELECT s.user_id , 
-ROUND(count(c.action) filter (where c.action = 'confirmed') / count(s.time_stamp)::numeric ,2) as confirmation_rate from Signups s
-left join Confirmations c on s.user_id = c.user_id
+ROUND(count(c.action) filter (where c.action = 'confirmed') / count(s.time_stamp)::numeric ,2) as confirmation_rate 
+from Signups s
+left join Confirmations c 
+on s.user_id = c.user_id
 group by s.user_id
 ```
 
