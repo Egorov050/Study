@@ -17,3 +17,8 @@ SELECT DISTINCT ON (user_id) user_id, order_id, order_date
 FROM orders
 ORDER BY user_id, order_date DESC;
 ```
+
+Этот запрос выбирает по одной строке для каждого user_id, причем для каждого пользователя будет выбрана строка с самым поздним order_date.
+
+*Важно, что для корректной работы запроса с DISTINCT ON должна быть прописана сортировка по тем же столбцам, что и в DISTINCT ON, иначе запрос не будет работать корректно.*
+
