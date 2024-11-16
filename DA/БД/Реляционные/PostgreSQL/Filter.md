@@ -22,3 +22,19 @@ group by s.user_id
 
 
 
+структура использования фильтра : 
+
+```SQL
+select query_name , ROUND(AVG(rating*1.0 / position),2) AS quality ,
+
+ROUND(count(rating) filter (where rating < 3) *1.0 / count(*) , 4) * 100 AS poor_query_percentage
+
+from Queries
+
+where query_name is not null
+
+GROUP BY query_name
+
+```
+
+
