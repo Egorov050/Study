@@ -22,3 +22,15 @@ ORDER BY user_id, order_date DESC;
 
 *Важно, что для корректной работы запроса с DISTINCT ON должна быть прописана сортировка по тем же столбцам, что и в DISTINCT ON, иначе запрос не будет работать корректно.*
 
+Ну или вот возможное решение задачи (https://leetcode.com/problems/immediate-food-delivery-ii/solutions/5894953/simple-solution-using-distinct-on-and-cte/?envType=study-plan-v2&envId=top-sql-50) : 
+
+```SQL
+
+WITH temp AS 
+(SELECT DISTINCT ON (customer_id) customer_id, 
+ CASE WHEN order_date = customer_pref_delivery_date THEN 1 ELSE NULL END AS "immediate", 
+ CASE WHEN order_date != customer_pref_delivery_date THEN 1 ELSE NULL END AS "scheduled" 
+ FROM Delivery 
+ ORDER BY customer_id, order_date ) SELECT ROUND(COUNT(immediate)::NUMERIC/COUNT(*) * 100 , 2) AS immediate_percentage FROM temp
+
+```
