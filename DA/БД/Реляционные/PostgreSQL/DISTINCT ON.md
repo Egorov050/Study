@@ -6,3 +6,14 @@ FROM table_name
 ORDER BY column1, column2, ...;
 ```
 
+Здесь:
+- DISTINCT ON (column1, column2, ...) указывает на столбцы, которые будут определять уникальность строк. Для каждой уникальной комбинации значений этих столбцов будет выбрана только одна строка.
+- ORDER BY используется для сортировки строк. Это важно, потому что DISTINCT ON выбирает первую строку в каждой группе по порядку, установленному в ORDER BY.
+
+Например : 
+
+```SQL
+SELECT DISTINCT ON (user_id) user_id, order_id, order_date
+FROM orders
+ORDER BY user_id, order_date DESC;
+```
