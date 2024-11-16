@@ -31,6 +31,6 @@ where query_name is not null
 GROUP BY query_name
 ```
 
-
+Ссылка на эту задачу : 
 https://leetcode.com/problems/queries-quality-and-percentage/submissions/1454405105/?envType=study-plan-v2&envId=top-sql-50
 
