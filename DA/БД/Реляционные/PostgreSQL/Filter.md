@@ -19,10 +19,7 @@ group by s.user_id
 Ссылка на задачу где это использовалось : https://leetcode.com/problems/confirmation-rate/submissions/1452653627/?envType=study-plan-v2&envId=top-sql-50
 
 
-
-
-
-структура использования фильтра : 
+Структура использования фильтра : 
 
 ```SQL
 select query_name , ROUND(AVG(rating*1.0 / position),2) AS quality ,
@@ -30,11 +27,10 @@ select query_name , ROUND(AVG(rating*1.0 / position),2) AS quality ,
 ROUND(count(rating) filter (where rating < 3) *1.0 / count(*) , 4) * 100 AS poor_query_percentage
 
 from Queries
-
 where query_name is not null
-
 GROUP BY query_name
-
 ```
 
+
+https://leetcode.com/problems/queries-quality-and-percentage/submissions/1454405105/?envType=study-plan-v2&envId=top-sql-50
 
