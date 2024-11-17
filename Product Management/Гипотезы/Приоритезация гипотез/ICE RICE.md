@@ -24,3 +24,5 @@ RICE считается более комплексной методологие
 $$
 RICE\ Score = \frac{Reach \times Impact \times Confidence}{Effort}
 $$
+
+Выставляем от 0 до 10
