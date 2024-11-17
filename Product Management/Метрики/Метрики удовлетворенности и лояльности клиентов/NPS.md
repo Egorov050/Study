@@ -25,5 +25,11 @@ $$
 
 Но у этой метрики есть подводные камни. 
 
+
+
+Примеры отлично-проработанного CJM : 
+- Ашан https://miro.com/app/board/o9J_kyvdHe4=/
+- Делимобиль 
+
 Датасет для практики : 
 https://www.kaggle.com/datasets/charlottetu/npsbank
