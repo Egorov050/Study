@@ -48,7 +48,6 @@
 
 Это может выглядеть вот так : 
 
-![CJM](https://github.com/user-attachments/assets/4e08258c-09f6-4fbd-8230-62bc14f2f542)
 
 
 
