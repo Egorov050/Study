@@ -7,10 +7,5 @@ Ozon мессенджер нужен для упрощения и ускорен
 
 Сейчас выглядит так : 
 
-<<<<<<< HEAD
-![photo_2024-11-21 20 47 21](https://github.com/user-attachments/assets/b5710e22-302d-4e2b-84de-b5580d4d9066)
 
-то есть 
-=======
 
->>>>>>> origin/main
