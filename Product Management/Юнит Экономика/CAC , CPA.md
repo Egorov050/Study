@@ -44,7 +44,7 @@ CAC = Маркетинговые расходы (n-60) + ½ затрат по п
 - косты на инструменты привлечения клиента / фичи для продажи по типу купонов...
 
 
-При 
+Подробнее про CAC : https://lpgenerator.ru/blog/2017/04/18/pochemu-vam-ne-stoit-doveryat-vashemu-srednemu-pokazatelyu-cac/
 
 
 
