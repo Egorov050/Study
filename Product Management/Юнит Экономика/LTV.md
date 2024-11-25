@@ -5,6 +5,4 @@ LTV (Lifetime Value) — это метрика, которая оценивае�
 https://apptractor.ru/info/articles/kak-predskazat-ltv-klienta-s-pomoschyu-mashinnogo-obucheniya-i-python.html
 
 
-`кж` щиайцзщкгшиа
-
 
