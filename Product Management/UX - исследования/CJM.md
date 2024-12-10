@@ -70,3 +70,7 @@
 - Делимобиль https://miro.com/app/board/o9J_kyw8YEI=/?moveToWidget=3074457346827557496
 - S7 https://miro.com/app/board/o9J_ky1F_TM=/?moveToWidget=3074457346388885071
 
+
+
+
+
