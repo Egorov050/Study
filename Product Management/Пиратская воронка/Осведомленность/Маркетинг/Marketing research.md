@@ -30,6 +30,8 @@ in a certain way.
 - Planned and structured (formalized).
 
 
+For marketing trends 
+
 
 
 
