@@ -38,8 +38,7 @@ https://medium.com/@jcmdxb/needs-wants-and-demands-1e139e46712e
 
 
 Факторы , которые влияют на consumer behavior : 
-- interanl 
-- external 
-- macro 
-- micro 
-- individual :  ( personal features, perception, learning/experience, attitudes ) 
+- internal :  individual :  ( personal features, perception, learning/experience, attitudes )
+- external : 
+	- macro 
+	- micro  
