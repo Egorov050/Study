@@ -37,4 +37,6 @@ https://medium.com/@jcmdxb/needs-wants-and-demands-1e139e46712e
 
 
 
-Факторы , которые влияют на consumer behaivo
+Факторы , которые влияют на consumer behavior : 
+- interanl 
+- external 
