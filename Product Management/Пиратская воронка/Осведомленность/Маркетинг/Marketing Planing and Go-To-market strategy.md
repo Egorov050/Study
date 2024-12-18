@@ -18,9 +18,11 @@
 Состоит из следующих стейджей : 
 
  Preparation ( Marketing Research and Market Analysis [[Marketing research]] )
-2. Ideation ( Collaboration between product and marketing teams ,  Consumer Behaviour and Analysis )
-3. Value Proposition ( Brand, positioning, messaging )
-4. Execution ( Product / Pricing, Distribution / Sales strategy, Promotion channels (digita )
-5. Transformation ( Risks, Trends, Course Conclusions )
+2. Ideation ( Product Ideation and Consumer Matching
+Consumer Behaviour )
+3. Value Proposition ( Marketing Strategy )
+4. Execution ( Marketing Mix - Product/ Price, Distribution
+(Sales Strategy), Promotion )
+5. Transformation ( Marketing and Change  )
 
 
