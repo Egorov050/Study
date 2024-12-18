@@ -6,3 +6,7 @@
 - Who? Это наша ЦА 
 - What? Непосредственно что мы предлагаем
 - Why? Наш brand proposition 
+
+Steps of GTM : 
+
+1. Preparation (  )
