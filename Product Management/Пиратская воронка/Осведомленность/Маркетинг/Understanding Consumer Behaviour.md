@@ -34,11 +34,9 @@ https://medium.com/@jcmdxb/needs-wants-and-demands-1e139e46712e
 Когда желания становятся более конкретными и подкрепляются ресурсами (деньгами, возможностями), они превращаются в **спрос** — реальное желание, которое человек может удовлетворить, приобретая продукт или услугу.
 
 
-
-
-
 Факторы , которые влияют на consumer behavior : 
-- internal :  individual :  ( personal features, perception, learning/experience, attitudes )
-- external : 
+- **internal** :  individual :  ( personal features, perception, learning/experience, attitudes )
+- **external** : 
 	- macro : PESTEL
-	- micro  : 
+	- micro  : Social class , Social group , Family , Personal influencers , Culture
+
