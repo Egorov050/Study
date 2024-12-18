@@ -32,7 +32,15 @@ in a certain way.
 
 For marketing trends and consumer analysis we might use in-depth interview or some frameworks like PESETL analysis.
 
-Then we have to do competitive analysis. This can be done by benchmarking , comparing by : 
+Then we have to do competitive analysis. This can be done by benchmarking and / or five forse  comparing by : 
+- Product quality
+- Pricing
+- Place
+- Promotion
+- Positioning
+- Reputation
+- People
+- Partnership
 
 
 
