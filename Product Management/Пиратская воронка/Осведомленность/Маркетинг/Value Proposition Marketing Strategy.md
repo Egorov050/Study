@@ -77,3 +77,10 @@ Marketing directions :
     - **Пример**: Tesla начинает производство солнечных панелей, расширяя бизнес за пределы автомобилей.
 
 ---
+
+
+**Based on competitive position**
+- _Leader strategy_
+- Challenger Strategy
+- _Follower strategy_
+-  _Niche strategy_
