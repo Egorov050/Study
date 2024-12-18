@@ -42,3 +42,4 @@ https://medium.com/@jcmdxb/needs-wants-and-demands-1e139e46712e
 - external 
 - macro 
 - micro 
+- individual :  ( personal features, perception, learning/experience, attitudes ) 
