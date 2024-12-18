@@ -9,4 +9,7 @@
 
 Steps of GTM : 
 
-1. Preparation (  )
+1. Preparation ( Marketing Research and Market Analysis [[Marketing research]] )
+2. Ideation ( Collaboration between product and marketing teams ,  Consumer Behaviour and Analysis )
+3. Value Proposition ( Brand, positioning, messaging )
+4. Execution (  )
