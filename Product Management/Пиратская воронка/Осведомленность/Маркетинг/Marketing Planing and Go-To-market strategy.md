@@ -15,13 +15,13 @@
 `Тактическое маркетинговое планирование` - Набор маркетинговых инструментов (продукт, цена, продвижение, место) и связанных решений, которые позволяют компании эффективно реализовать свою стратегию. Это практическая реализация ценностного предложения через конкретные действия. В данном примере это включает разработку продуктов для разных типов кожи и этнических групп, что соответствует стратегической цели компании.
 
 
-Маркетинговый план Состоит из следующих стейджей : 
+Маркетинговый план состоит из следующих стейджей : 
 
- Preparation ( Marketing Research and Market Analysis [[Marketing research]] )
+ 1. Preparation ( Marketing Research and Market Analysis [[Marketing research]] )
 2. Ideation ( Product Ideation and Consumer Matching
 Consumer Behaviour )
-3. Value Proposition ( Marketing Strategy )
-4. Execution ( Marketing Mix - Product/ Price, Distribution
+1. Value Proposition ( Marketing Strategy )
+2. Execution ( Marketing Mix - Product/ Price, Distribution
 (Sales Strategy), Promotion )
 5. Transformation ( Marketing and Change  )
 
