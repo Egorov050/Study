@@ -20,8 +20,8 @@
  1. Preparation ( Marketing Research and Market Analysis [[Marketing research]] )
 2. Ideation ( Product Ideation and Consumer Matching
 Consumer Behaviour )
-1. Value Proposition ( Marketing Strategy )
-2. Execution ( Marketing Mix - Product/ Price, Distribution
+3. Value Proposition ( Marketing Strategy )
+4. Execution ( Marketing Mix - Product/ Price, Distribution
 (Sales Strategy), Promotion )
 5. Transformation ( Marketing and Change  )
 
