@@ -8,6 +8,7 @@
 - Why? Наш brand proposition 
 
 <h3>Steps of GTM :</h3> 
+
 1. Preparation ( Marketing Research and Market Analysis [[Marketing research]] )
 2. Ideation ( Collaboration between product and marketing teams ,  Consumer Behaviour and Analysis )
 3. Value Proposition ( Brand, positioning, messaging )
