@@ -1,1 +1,0 @@
-CVM (Customer Value Management)
