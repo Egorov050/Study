@@ -213,13 +213,10 @@ Potential Product (Потенциальный продукт)**
 Если у вас есть конкретные вопросы по этой информации или вам нужно объяснить определенный раздел подробнее, дайте знать!
 
 
-
-
-
-
-
-
-
+**Product Portfolio** — the set of products a company sells.
+Product line — a set of products that have a range of common features (for
+example, line 1 - carbonated drinks and line 2 - juices).
+Product mix — the assortment of all product lines offered by the organization.
 
 
 
