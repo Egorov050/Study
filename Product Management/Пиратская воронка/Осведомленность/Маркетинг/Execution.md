@@ -214,11 +214,23 @@ Potential Product (Потенциальный продукт)**
 
 
 **Product Portfolio** — the set of products a company sells.
-Product line — a set of products that have a range of common features (for
-example, line 1 - carbonated drinks and line 2 - juices).
-Product mix — the assortment of all product lines offered by the organization.
+**Product line** — a set of products that have a range of common features (for
+**example, line 1** - carbonated drinks and line 2 - juices).
+**Product mix** — the assortment of all product lines offered by the organization.
 
 
+Управлением продуктовым ассортиментом и линиями :
+
+1. **Изменение длины или глубины продуктовой линии (Change product line length or depth):**
+   - Увеличение или уменьшение количества продуктов в определенной линии для адаптации к потребностям рынка или повышения прибыльности.
+
+2. **Изменение ширины ассортимента (Change product mix width):**
+   - Расширение или сокращение количества категорий продуктов, предлагаемых компанией, для охвата большего числа сегментов рынка.
+
+3. **Управление каннибализацией продуктов (Manage product cannibalisation):**
+   - Контроль ситуации, когда новые продукты компании вытесняют уже существующие продукты, снижая их продажи, вместо привлечения новых клиентов.
+
+Эти меры позволяют компании оптимизировать портфель продуктов, снижать риски и повышать эффективность своей рыночной стратегии.
 
 
 **Ценовые стратегии** играют ключевую роль в маркетинге, так как напрямую влияют на восприятие продукта, конкурентоспособность и прибыль компании. Рассмотрим основные **методы ценообразования**:
