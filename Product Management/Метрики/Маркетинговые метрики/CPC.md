@@ -1,0 +1,1 @@
+цена за клик (cost per click)
