@@ -27,6 +27,7 @@ https://leetcode.com/problems/valid-anagram/
 
 
 ```python
+
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         hash_set = {}
@@ -39,3 +40,6 @@ class Solution:
                 return (i , hash_set[dif])
 
 ```
+
+https://leetcode.com/problems/two-sum/
+
