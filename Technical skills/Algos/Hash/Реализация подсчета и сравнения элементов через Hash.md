@@ -21,3 +21,21 @@ class Solution:
 
 
 https://leetcode.com/problems/valid-anagram/
+
+
+
+
+
+```python
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        hash_set = {}
+        for i in range(len(nums)) : 
+            hash_set[nums[i]] = i 
+
+        for i in range(len(nums)) : 
+            dif = target - nums[i] 
+            if dif in hash_set and hash_set[dif] != i : 
+                return (i , hash_set[dif])
+
+```
