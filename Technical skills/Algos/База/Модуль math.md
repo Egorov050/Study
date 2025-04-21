@@ -9,9 +9,12 @@ import math
 Далее, мы должны просто обратиться к `math` и вызвать нужную мне функцию, например: 
 
 ```python 
-impor
+import math 
 
-math.sqrt 
+math.sqrt()
+math.factoria()
+math.pow(x, y) -> число x в степени y
+math.log(x, base)
 
 
 ```
