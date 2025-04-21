@@ -1,7 +1,14 @@
+
 ```python
-name = "Bob" age = 30 print(f"My name is {name} and I am {age} years old.")
+
+name = "Bob" 
+age = 30 
+
+print(f"My name is {name} and I am {age} years old.")
 
 print(name)
 
-#вернется 
+#вернется My name is Bob and I am 30 years old.
+
 ```
+
