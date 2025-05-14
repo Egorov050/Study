@@ -17,6 +17,7 @@ math.pow(x, y) -> число x в степени y
 math.log(x, base)
 
 
+
 math.pi -> выведит число pi 
 
 
