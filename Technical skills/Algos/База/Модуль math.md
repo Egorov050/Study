@@ -15,7 +15,7 @@ math.sqrt()
 math.factoria()
 math.pow(x, y) -> число x в степени y
 math.log(x, base)
-
+math.ceil(n) -> округление в большую сторонц
 
 
 math.pi -> выведит число pi 
