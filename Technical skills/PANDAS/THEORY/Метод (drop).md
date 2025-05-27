@@ -25,3 +25,13 @@ df = df.drop(df[df['Tm'] == 'TOT'].index)
 df.dropna(inplace=True)
 ```
 
+
+Параметр `how`
+
+```python
+
+df = df.dropna(axis=1, how='all')
+
+
+
+```
