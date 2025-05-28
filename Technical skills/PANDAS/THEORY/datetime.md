@@ -12,4 +12,9 @@ df['rowupdate'] = df['rowupdate'].apply(lambda x : datetime.strptime(x, "%Y-%m-%
 
 Затем, когда мы переделали это в datetime, мы уже используем `strftime`. Наприме, чтобы получить год, мы пишем : 
 
-zzz
+```python 
+
+df['update_year'] = df['rowupdate'].apply(lambda x : datetime.strftime(x, "%Y")).astype('int64')
+
+```
+
