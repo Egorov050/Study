@@ -95,6 +95,7 @@ y_pred = kn.predict(X_test)
 
 ### Гиперпараметры : 
 
-- 1. *n_neighbors**
+- n_neighbors (число ближайших соседей)
+- metric ('manhattan', 'euclidean', 'chebyshev)
 
 
