@@ -85,4 +85,33 @@ param_grid = {
 Помним, что порядка 37% при создании бутстрап выборки не попадут в выборки, их можно использовать для подсчета метрики `Out-Of-Bag_error`
 
 
+Общий пример классификации и регрессии еще раз : 
+
+```python
+
+# Регрессия 
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.metrics import mean_squared_error
+
+rf = RandomForestRegressor(
+    n_estimators=100,
+    max_features='auto',    # ≈M/3
+    oob_score=True,
+    random_state=42,
+    n_jobs=-1
+)
+rf.fit(X_train, y_train)
+
+print("OOB R²:", rf.oob_score_)
+print("OOB MSE:", mean_squared_error(y_train, rf.oob_prediction_))
+print("Test  MSE:", mean_squared_error(y_test,  rf.predict(X_test)))
+
+#Классификац
+
+
+
+
+```
+
+
 https://www.youtube.com/watch?v=sQ870aTKqiM
