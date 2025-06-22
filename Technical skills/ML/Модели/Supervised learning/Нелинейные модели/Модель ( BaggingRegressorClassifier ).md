@@ -41,4 +41,35 @@ print("Test MSE:", mean_squared_error(y_test,  bag.predict(X_test)))
 
 
 
-Тоже самое имеется для классификации 
+Тоже самое имеется для классификации : 
+
+```python
+from sklearn.ensemble import BaggingClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.datasets import make_classification
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+
+# 1) Синтетические данные
+X, y = make_classification(n_samples=500, n_features=10, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.3, random_state=42
+)
+
+# 2) BaggingClassifier с 20 деревьями и OOB
+bag_clf = BaggingClassifier(
+    base_estimator=DecisionTreeClassifier(),
+    n_estimators=20,
+    oob_score=True,
+    random_state=42,
+    n_jobs=-1
+)
+bag_clf.fit(X_train, y_train)
+
+# 3) Оценки
+print("OOB accuracy:", bag_clf.oob_score_)
+print("Test  accuracy:", accuracy_score(y_test, bag_clf.predict(X_test)))
+
+```
+
+
