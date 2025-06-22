@@ -39,3 +39,6 @@ print("Test MSE:", mean_squared_error(y_test,  bag.predict(X_test)))
 ```
 
 
+
+
+Тоже самое имеется для классификации 
