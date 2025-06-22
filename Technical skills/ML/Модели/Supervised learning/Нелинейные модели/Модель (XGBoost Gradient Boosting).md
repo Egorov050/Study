@@ -104,3 +104,6 @@ y_pred = model.predict(dtest)
 
 `Как выбрать лучшие параметры?`  рассмотрели здесь [[Выбор гиперпараметров]]
 https://habr.com/ru/companies/raft/articles/890802/
+
+
+https://education.yandex.ru/handbook/ml/article/gradientnyj-busting
