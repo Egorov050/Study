@@ -106,7 +106,29 @@ print("OOB R²:", rf.oob_score_)
 print("OOB MSE:", mean_squared_error(y_train, rf.oob_prediction_))
 print("Test  MSE:", mean_squared_error(y_test,  rf.predict(X_test)))
 
-#Классификац
+
+
+
+
+
+
+
+
+#Классификация 
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score
+
+rfc = RandomForestClassifier(
+    n_estimators=100,
+    max_features='sqrt',
+    oob_score=True,
+    random_state=42,
+    n_jobs=-1
+)
+rfc.fit(X_train, y_train)
+
+print("OOB accuracy:", rfc.oob_score_)
+print("Test    accuracy:", accuracy_score(y_test, rfc.predict(X_test)))
 
 
 
