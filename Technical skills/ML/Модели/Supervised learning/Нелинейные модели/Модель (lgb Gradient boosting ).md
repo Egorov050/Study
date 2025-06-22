@@ -17,7 +17,7 @@ import lightgbm as lgb
 Перейдем непосредственно к тренировке модели : 
 
 ```python 
-LGB_model = lgb.LGBMClassifier(verbose=0)
+LGB_model = lgb.LGBMClassifier(verbose=1)
 LGB_model.fit(X_train, y_train)
 ```
 
