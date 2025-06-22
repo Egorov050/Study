@@ -23,7 +23,7 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import mean_squared_error
 
 bag = BaggingRegressor(
-    base_estimator=DecisionTreeRegressor(),
+    estimator=DecisionTreeRegressor(),
     n_estimators=20,
     oob_score=True,
     random_state=42,
@@ -58,7 +58,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 # 2) BaggingClassifier с 20 деревьями и OOB
 bag_clf = BaggingClassifier(
-    base_estimator=DecisionTreeClassifier(),
+    estimator=DecisionTreeClassifier(),
     n_estimators=20,
     oob_score=True,
     random_state=42,
