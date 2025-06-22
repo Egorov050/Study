@@ -16,3 +16,26 @@
 | oob_score          | Вычислять ли OOB-оценку (см. ниже)                                    | False                  |
 | n_jobs             | Число параллельных процессов                                          | None (последовательно) |
 
+```python
+
+from sklearn.ensemble import BaggingRegressor
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.metrics import mean_squared_error
+
+bag = BaggingRegressor(
+    base_estimator=DecisionTreeRegressor(),
+    n_estimators=20,
+    oob_score=True,
+    random_state=42,
+    n_jobs=-1
+)
+bag.fit(X_train, y_train)
+
+print("OOB R²:", bag.oob_score_)
+print("OOB MSE:", mean_squared_error(y_train, bag.oob_prediction_))
+print("Test MSE:", mean_squared_error(y_test,  bag.predict(X_test)))
+
+
+```
+
+
