@@ -65,7 +65,7 @@
 
 Выделяют следующие виды работы: 
 - Main Job - по сути это задача Job Performer. The main job is broad and straightforward, serving as an anchor for all other elements of your JTBD investigation. For example, _prepare a meal_, _listen to music_, or _plan long-term financial well-being_ are examples. При этом Main Job не должна содержать в себе различных прилагательных-характеристик 
-- 
+- Инструмент врёт в одну конкретную сторону: он выдаёт одну стройную джобу с восемью стадиями и создаёт ощущение, что человек её и выполняет. А человек одновременно тянет пять целей, которые пересекаются и мешают друг другу, и ни одна не главная.
 
 
 
