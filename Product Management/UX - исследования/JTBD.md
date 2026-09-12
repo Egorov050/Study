@@ -55,3 +55,7 @@
 
 
 https://gopractice.ru/product/jtbd-interview/
+
+
+
+https://habr.com/ru/articles/855286/?ysclid=mtyagroxgn56854637
