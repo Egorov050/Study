@@ -64,7 +64,7 @@
 > Кристенсен — автор ряда книг, которые мы настоятельно [рекомендуем](https://gopractice.ru/library/what-product-managers-should-read/) прочитать. Среди них в первую очередь хочется выделить “[The Innovator’s Dilemma](https://gopractice.ru/library/what-product-managers-should-read/#book5)” и “Competing Against Luck”. Вместе с соавторами последней, посвященной фреймворку JTBD (Jobs to Be Done), Кристенсен написал статью для Harvard Business Review под названием [Know Your Customers’ “Jobs to Be Done”](https://gopractice.ru/goto/https://hbr.org/2016/09/know-your-customers-jobs-to-be-done). Она была опубликована в сентябре 2016 года, но все еще остается важной и актуальной. Мы предлагаем вам прочитать ее адаптированный перевод.</details>
 
 Выделяют следующие виды работы: 
-- Main Job - по сути это задача Job Perf
+- Main Job - по сути это задача Job Performer. The main job is broad and straightforward, serving as an anchor for all other elements of your JTBD investigation. For example, _prepare a meal_, _listen to music_, or _plan long-term financial well-being_ are examples. При этом Main 
 
 
 
